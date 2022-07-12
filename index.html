@@ -14,7 +14,12 @@
       }
     </style>
   </head>
-  <body onload="startGame()">
+  <body>
+    <div class="container" id="start-game">
+      <h2 id="game-over-text">GAME OVER</h2>
+      <button id="start-btn" onclick="startGame()">START</button>
+      <button id="retry-btn" onclick="location.reload()">Retry</button>
+    </div>
     <br />
     <button
       class="fly-btn"

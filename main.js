@@ -13,6 +13,7 @@ function startGame() {
     30,
     'text'
   );
+  document.getElementById('start-game').style.display = 'none';
   myGameArea.start();
 }
 
@@ -98,6 +99,16 @@ function component(width, height, color, x, y, type) {
     ) {
       crash = false;
     }
+    if (crash) {
+      document.getElementById('start-game').style.display = 'block';
+      document.getElementById('game-over-text').style.display = 'block';
+      document.getElementById('retry-btn').style.display = 'block';
+      document.getElementById('start-btn').style.display = 'none';
+    } else {
+      document.getElementById('start-game').style.display = 'none';
+      document.getElementById('game-over-text').style.display = 'none';
+      document.getElementById('retry-btn').style.display = 'none';
+    }
     return crash;
   };
 }
@@ -149,7 +160,7 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
-  gameCharacter.gravity = n;
+  return (gameCharacter.gravity = n);
 }
 
 const flyPoop = document.getElementById('fly-poop');
