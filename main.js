@@ -129,7 +129,7 @@ function updateGameArea() {
     height = Math.floor(
       Math.random() * (maxHeight - minHeight + 1) + minHeight
     );
-    minGap = 55;
+    minGap = 50;
     maxGap = 195;
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
     myObstacles.push(new component(35, height, '#964E00', x, 0));
@@ -164,7 +164,20 @@ function accelerate(n) {
 }
 
 const flyPoop = document.getElementById('fly-poop');
-if (flyPoop) {
-  flyPoop.addEventListener('touchstart', accelerate(-0.2));
-  flyPoop.addEventListener('touchend', accelerate(0.07));
-}
+
+flyPoop.addEventListener(
+  'touchstart',
+  function (event) {
+    event.preventDefault();
+    accelerate(-0.2);
+  },
+  false
+);
+flyPoop.addEventListener(
+  'touchend',
+  function (ev) {
+    event.preventDefault();
+    accelerate(0.07);
+  },
+  false
+);
