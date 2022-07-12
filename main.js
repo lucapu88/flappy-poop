@@ -100,10 +100,11 @@ function component(width, height, color, x, y, type) {
       crash = false;
     }
     if (crash) {
-      document.getElementById('start-game').style.display = 'block';
+      document.getElementById('start-game').style.display = 'flex';
       document.getElementById('game-over-text').style.display = 'block';
       document.getElementById('retry-btn').style.display = 'block';
       document.getElementById('start-btn').style.display = 'none';
+      document.getElementById('score-text').innerText = myScore.text;
     } else {
       document.getElementById('start-game').style.display = 'none';
       document.getElementById('game-over-text').style.display = 'none';
@@ -129,8 +130,8 @@ function updateGameArea() {
     height = Math.floor(
       Math.random() * (maxHeight - minHeight + 1) + minHeight
     );
-    minGap = 50;
-    maxGap = 195;
+    minGap = 65;
+    maxGap = 190;
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
     myObstacles.push(new component(35, height, '#964E00', x, 0));
     myObstacles.push(
@@ -175,7 +176,7 @@ flyPoop.addEventListener(
 );
 flyPoop.addEventListener(
   'touchend',
-  function (ev) {
+  function (event) {
     event.preventDefault();
     accelerate(0.07);
   },
