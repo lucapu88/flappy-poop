@@ -8,21 +8,22 @@
       canvas {
         border: 1px solid #d3d3d3;
         background-image: url('img/background.webp');
-        background-position: bottom;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
     </style>
   </head>
   <body onload="startGame()">
-    <script src="main.js" charset="utf-8"></script>
     <br />
     <button
       class="fly-btn"
+      id="fly-poop"
       onmousedown="accelerate(-0.2)"
       onmouseup="accelerate(0.07)"
     >
       FLY
     </button>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

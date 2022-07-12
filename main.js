@@ -19,7 +19,7 @@ function startGame() {
 let myGameArea = {
   canvas: document.createElement('canvas'),
   start: function () {
-    this.canvas.width = 670;
+    this.canvas.width = 750;
     this.canvas.height = 380;
     this.context = this.canvas.getContext('2d');
     document.body.insertBefore(this.canvas, document.body.childNodes[0]);
@@ -150,4 +150,10 @@ function everyinterval(n) {
 
 function accelerate(n) {
   gameCharacter.gravity = n;
+}
+
+const flyPoop = document.getElementById('fly-poop');
+if (flyPoop) {
+  flyPoop.addEventListener('touchstart', accelerate(-0.2));
+  flyPoop.addEventListener('touchend', accelerate(0.07));
 }
