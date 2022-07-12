@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      canvas {
+        border: 1px solid #d3d3d3;
+        background-image: url('img/background.webp');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body onload="startGame()">
+    <script src="main.js" charset="utf-8"></script>
+    <br />
+    <button
+      class="fly-btn"
+      onmousedown="accelerate(-0.2)"
+      onmouseup="accelerate(0.07)"
+    >
+      FLY
+    </button>
+  </body>
+</html>

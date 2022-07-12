@@ -1,0 +1,24 @@
+body {
+  width: 700px;
+  height: 380px;
+  margin: 0 auto;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  position: relative;
+  background: rgb(186, 109, 0);
+  background: radial-gradient(
+    circle,
+    rgba(186, 109, 0, 1) 27%,
+    rgba(98, 34, 0, 1) 70%
+  );
+}
+.fly-btn {
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #905631;
+  color: #ffff;
+  border: 3px solid #ffff;
+}
