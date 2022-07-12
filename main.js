@@ -14,7 +14,20 @@ function startGame() {
     'text'
   );
   document.getElementById('start-game').style.display = 'none';
+  this.saveNickname(document.getElementById('nickname').value);
   myGameArea.start();
+}
+
+function saveNickname(nickname) {
+  window.localStorage.setItem('nickname', nickname);
+  document.getElementById('nickname').style.display = 'none';
+}
+
+async function getNickname() {
+  const localNickname = await localStorage.getItem('nickname');
+  localNickname
+    ? (document.getElementById('nickname').value = localNickname)
+    : (document.getElementById('nickname').placeholder = 'Enter your nickname');
 }
 
 let myGameArea = {

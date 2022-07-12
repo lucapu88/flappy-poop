@@ -11,6 +11,11 @@ body {
     rgba(98, 34, 0, 1) 70%
   );
 }
+input {
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -20,7 +25,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   z-index: 100;
   display: flex;
