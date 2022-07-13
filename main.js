@@ -1,6 +1,7 @@
 let gameCharacter;
 let myObstacles = [];
 let myScore;
+let myScoreNumber;
 
 function startGame() {
   gameCharacter = new component(55, 40, '', 10, 120, 'img');
@@ -96,9 +97,9 @@ function component(width, height, color, x, y, type) {
 
   this.crashWith = function (otherobj) {
     let myleft = this.x;
-    let myright = this.x + this.width - 5;
-    let mytop = this.y + 15;
-    let mybottom = this.y + this.height - 5;
+    let myright = this.x + this.width - 4;
+    let mytop = this.y + 10;
+    let mybottom = this.y + this.height - 4;
     let otherleft = otherobj.x;
     let otherright = otherobj.x + otherobj.width;
     let othertop = otherobj.y;
@@ -129,6 +130,14 @@ function component(width, height, color, x, y, type) {
 
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
+  // let speed =
+  //   this.myScoreNumber < 500 ? -1 : this.myScoreNumber < 1000 ? -1.5 : -2;
+  // let intervall = speed === -1 ? 200 : speed === -1.5 ? 150 : 100;
+  let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
+  let intervall = speed === -1.5 ? 160 : 120; //DISTANZA TRA GLI OSTACOLI
+  let dinamicMinGap = intervall === 180 ? 60 : 57; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO
+  let dinamicMaxGap = intervall === 180 ? 150 : 120; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO
+
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
       return;
@@ -136,23 +145,24 @@ function updateGameArea() {
   }
   myGameArea.clear();
   myGameArea.frameNo += 1;
-  if (myGameArea.frameNo == 1 || everyinterval(200)) {
+  if (myGameArea.frameNo == 1 || everyinterval(intervall)) {
     x = myGameArea.canvas.width;
     minHeight = 20;
     maxHeight = 200;
     height = Math.floor(
       Math.random() * (maxHeight - minHeight + 1) + minHeight
     );
-    minGap = 65;
-    maxGap = 180;
+    minGap = dinamicMinGap;
+    maxGap = dinamicMaxGap;
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
     myObstacles.push(new component(35, height, '#964E00', x, 0));
     myObstacles.push(
       new component(35, x - height - gap, '#6A2800', x, height + gap)
     );
   }
+
   for (i = 0; i < myObstacles.length; i += 1) {
-    myObstacles[i].x += -1;
+    myObstacles[i].x += speed;
     myObstacles[i].update();
   }
   this.updateScore();
@@ -162,7 +172,8 @@ function updateGameArea() {
 }
 
 function updateScore() {
-  const score = myGameArea.frameNo - 620;
+  const score = myGameArea.frameNo - 490; //PUNTO DI INIZIO PARTENZA PUNTEGGIO
+  this.myScoreNumber = score;
   myScore.text = `SCORE: ${score < 0 ? 0 : score}`;
 }
 
@@ -183,7 +194,7 @@ flyPoop.addEventListener(
   'touchstart',
   function (event) {
     event.preventDefault();
-    accelerate(-0.2);
+    accelerate(-0.4);
   },
   false
 );
@@ -191,7 +202,7 @@ flyPoop.addEventListener(
   'touchend',
   function (event) {
     event.preventDefault();
-    accelerate(0.07);
+    accelerate(0.1);
   },
   false
 );
