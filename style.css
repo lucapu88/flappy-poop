@@ -4,11 +4,11 @@ body {
   margin: 0 auto;
   font-family: 'Lucida Console', 'Courier New', monospace;
   position: relative;
-  background: rgb(186, 109, 0);
+  background: rgb(248, 184, 158);
   background: radial-gradient(
     circle,
-    rgba(186, 109, 0, 1) 27%,
-    rgba(98, 34, 0, 1) 70%
+    rgba(248, 184, 158, 1) 27%,
+    rgba(210, 64, 49, 1) 70%
   );
 }
 input {
