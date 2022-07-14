@@ -2,6 +2,9 @@ let gameCharacter;
 let myObstacles = [];
 let myScore;
 let myScoreNumber;
+let modal = document.getElementById('myModal');
+let infoBtn = document.getElementById('info-btn');
+let spanClose = document.getElementsByClassName('close')[0];
 
 function startGame() {
   gameCharacter = new component(55, 40, '', 10, 120, 'img');
@@ -117,10 +120,12 @@ function component(width, height, color, x, y, type) {
       document.getElementById('start-game').style.backgroundImage =
         "url('img/game-over.webp')";
       document.getElementById('start-game').style.display = 'flex';
+      document.getElementById('start-game').style.marginTop = '10px';
       document.getElementById('retry-btn').style.display = 'block';
       document.getElementById('start-btn').style.display = 'none';
       document.getElementById('label-nickname').style.display = 'none';
       document.getElementById('score-text').innerText = myScore.text;
+      infoBtn.style.display = 'none';
     } else {
       document.getElementById('start-game').style.display = 'none';
       document.getElementById('retry-btn').style.display = 'none';
@@ -208,17 +213,11 @@ flyPoop.addEventListener(
   false
 );
 
-let modal = document.getElementById('myModal');
-
-let btn = document.getElementById('info-btn');
-
-let span = document.getElementsByClassName('close')[0];
-
-btn.onclick = function () {
+infoBtn.onclick = function () {
   modal.style.display = 'block';
 };
 
-span.onclick = function () {
+spanClose.onclick = function () {
   modal.style.display = 'none';
 };
 

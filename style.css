@@ -23,6 +23,9 @@ button {
   border-radius: 10px;
   padding: 5px;
 }
+button:hover {
+  cursor: pointer;
+}
 
 .container {
   width: 100%;
@@ -33,7 +36,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 0;
   z-index: 100;
   display: flex;
@@ -48,6 +51,7 @@ button {
 .start-retry-btn {
   width: 100px;
   height: 40px;
+  margin-top: 5px;
   margin-bottom: 15%;
 }
 .label-nickname {
@@ -60,9 +64,27 @@ button {
 }
 
 .info-btn {
+  width: 90px;
   position: absolute;
-  bottom: 2%;
+  bottom: 0%;
   right: 2%;
+}
+.animation-zoom {
+  animation: zoominout 1.5s infinite;
+}
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.info-btn:hover {
+  cursor: pointer;
 }
 .fly-btn {
   position: absolute;
