@@ -119,6 +119,7 @@ function component(width, height, color, x, y, type) {
       document.getElementById('start-game').style.display = 'flex';
       document.getElementById('retry-btn').style.display = 'block';
       document.getElementById('start-btn').style.display = 'none';
+      document.getElementById('label-nickname').style.display = 'none';
       document.getElementById('score-text').innerText = myScore.text;
     } else {
       document.getElementById('start-game').style.display = 'none';

@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="style.css" />
     <title>Flappy Poop</title>
     <style>
@@ -20,7 +21,8 @@
   </head>
   <body onload="getNickname()">
     <div class="container" id="start-game">
-      <h3 class="custom-text" id="score-text"></h3>
+      <h2 class="custom-text" id="score-text"></h2>
+      <label id="label-nickname" class="label-nickname">NICKNAME:</label>
       <input id="nickname" type="text" placeholder="Enter your nickname" />
       <button class="start-retry-btn" id="start-btn" onclick="startGame()">
         START

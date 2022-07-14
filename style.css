@@ -44,9 +44,15 @@ input {
   background-color: #b3ea47;
   font-weight: bold;
   border-radius: 10px;
+  text-transform: uppercase;
+}
+.label-nickname {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 22px;
 }
 .custom-text {
-  color: #ffff;
+  color: #b3ea47;
 }
 .fly-btn {
   position: absolute;
