@@ -132,7 +132,7 @@ function component(width, height, color, x, y, type) {
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
   // let speed =
-  //   this.myScoreNumber < 500 ? -1 : this.myScoreNumber < 1000 ? -1.5 : -2;
+  //   this.myScoreNumber < 1500 ? -1 : this.myScoreNumber < 4000 ? -1.5 : -2;
   // let intervall = speed === -1 ? 200 : speed === -1.5 ? 150 : 100;
   let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
   let intervall = speed === -1.5 ? 160 : 120; //DISTANZA TRA GLI OSTACOLI
@@ -207,3 +207,23 @@ flyPoop.addEventListener(
   },
   false
 );
+
+let modal = document.getElementById('myModal');
+
+let btn = document.getElementById('info-btn');
+
+let span = document.getElementsByClassName('close')[0];
+
+btn.onclick = function () {
+  modal.style.display = 'block';
+};
+
+span.onclick = function () {
+  modal.style.display = 'none';
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};

@@ -16,6 +16,14 @@ input {
   border-radius: 8px;
   text-align: center;
 }
+button {
+  text-transform: uppercase;
+  background-color: #b3ea47;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -41,10 +49,6 @@ input {
   width: 100px;
   height: 40px;
   margin-bottom: 15%;
-  background-color: #b3ea47;
-  font-weight: bold;
-  border-radius: 10px;
-  text-transform: uppercase;
 }
 .label-nickname {
   color: #ffff;
@@ -53,6 +57,12 @@ input {
 }
 .custom-text {
   color: #b3ea47;
+}
+
+.info-btn {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
 }
 .fly-btn {
   position: absolute;
@@ -69,10 +79,54 @@ input {
     rgba(98, 34, 0, 1) 70%
   );
   color: #ffff;
-  border: 3px solid #ffff;
   width: 85px;
   height: 85px;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #b3ea47;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 23px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 667px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);
@@ -85,9 +139,9 @@ input {
       rgba(248, 184, 158, 1) 27%,
       rgba(210, 64, 49, 1) 70%
     );
-    /* overflow-x: hidden; */
+    overflow-x: auto;
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 0;
   }
 }
