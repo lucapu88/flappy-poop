@@ -2,9 +2,12 @@ let gameCharacter;
 let myObstacles = [];
 let myScore;
 let myScoreNumber;
-let modal = document.getElementById('myModal');
+let infoModal = document.getElementById('info-modal');
+let rankingModal = document.getElementById('ranking-modal');
 let infoBtn = document.getElementById('info-btn');
-let spanClose = document.getElementsByClassName('close')[0];
+let rankingBtn = document.getElementById('ranking-btn');
+let infoClose = document.getElementsByClassName('close')[0];
+let rankingClose = document.getElementsByClassName('close')[1];
 
 function startGame() {
   gameCharacter = new component(55, 40, '', 10, 120, 'img');
@@ -126,6 +129,7 @@ function component(width, height, color, x, y, type) {
       document.getElementById('label-nickname').style.display = 'none';
       document.getElementById('score-text').innerText = myScore.text;
       infoBtn.style.display = 'none';
+      rankingBtn.style.display = 'none';
     } else {
       document.getElementById('start-game').style.display = 'none';
       document.getElementById('retry-btn').style.display = 'none';
@@ -214,15 +218,26 @@ flyPoop.addEventListener(
 );
 
 infoBtn.onclick = function () {
-  modal.style.display = 'block';
+  infoModal.style.display = 'block';
 };
 
-spanClose.onclick = function () {
-  modal.style.display = 'none';
+infoClose.onclick = function () {
+  infoModal.style.display = 'none';
+};
+
+rankingBtn.onclick = function () {
+  rankingModal.style.display = 'block';
+};
+
+rankingClose.onclick = function () {
+  rankingModal.style.display = 'none';
 };
 
 window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = 'none';
+  if (event.target == infoModal) {
+    infoModal.style.display = 'none';
+  }
+  if (event.target == rankingModal) {
+    rankingModal.style.display = 'none';
   }
 };
