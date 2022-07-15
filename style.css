@@ -110,6 +110,18 @@ button:hover {
   width: 85px;
   height: 85px;
 }
+.pause-btn {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #b3ea47;
+  color: #000;
+  width: 35px;
+  height: 35px;
+}
 
 .modal {
   display: none;
@@ -117,7 +129,7 @@ button:hover {
   z-index: 1;
   padding-top: 100px;
   left: 0;
-  /* top: 0; */
+  bottom: -5px;
   width: 100%;
   height: 100%;
   overflow: auto;
