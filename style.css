@@ -117,7 +117,7 @@ button:hover {
   z-index: 1;
   padding-top: 100px;
   left: 0;
-  top: 0;
+  /* top: 0; */
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -133,20 +133,6 @@ button:hover {
   width: 50%;
   max-height: 75%;
   overflow: auto;
-}
-
-.rank-modal-content {
-  background-color: #b3ea47;
-  margin: auto;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  height: 85%;
-  overflow: auto;
-  text-align: center;
-}
-.rank-modal-title {
-  margin: 0;
 }
 
 .close {
@@ -171,6 +157,27 @@ button:hover {
   width: 23px;
 }
 
+.rank-modal-content {
+  background-color: #b3ea47;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  height: 85%;
+  overflow: auto;
+  text-align: center;
+}
+.rank-modal-title {
+  margin: 0;
+}
+
+.scores-container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  gap: 20px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 667px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);
@@ -187,9 +194,5 @@ button:hover {
     position: absolute;
     top: 110%;
     left: 0;
-  }
-
-  .modal {
-    top: -23%;
   }
 }
