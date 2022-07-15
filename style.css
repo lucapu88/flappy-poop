@@ -190,6 +190,12 @@ button:hover {
   gap: 20px;
 }
 
+.privacy-policy > a.iubenda-embed {
+  background-color: transparent !important;
+  color: black !important;
+  font-size: 8px !important;
+}
+
 @media screen and (min-width: 320px) and (max-width: 667px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);

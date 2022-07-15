@@ -205,6 +205,7 @@ flyPoop.addEventListener(
   function (event) {
     event.preventDefault();
     accelerate(-0.4);
+    flyPoop.style.boxShadow = '0px 0px 35px 6px #000000';
   },
   false
 );
@@ -213,6 +214,7 @@ flyPoop.addEventListener(
   function (event) {
     event.preventDefault();
     accelerate(0.1);
+    flyPoop.style.boxShadow = 'none';
   },
   false
 );
