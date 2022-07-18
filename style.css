@@ -1,6 +1,6 @@
 body {
   width: 760px;
-  height: 380px;
+  height: 390px;
   margin: 0 auto;
   font-family: 'Lucida Console', 'Courier New', monospace;
   position: relative;
@@ -110,9 +110,9 @@ button:hover {
   width: 85px;
   height: 85px;
 }
-.pause-btn {
+.stop-btn {
   position: absolute;
-  top: 2%;
+  top: 3%;
   right: 5%;
   font-weight: bold;
   font-size: 15px;
