@@ -213,7 +213,7 @@ flyPoop.addEventListener(
   'touchend',
   function (event) {
     event.preventDefault();
-    accelerate(0.1);
+    accelerate(0.15);
     flyPoop.style.boxShadow = 'none';
   },
   false
