@@ -101,6 +101,19 @@ function component(width, height, color, x, y, type) {
     }
   };
 
+  const gameOver = () => {
+    document.getElementById('start-game').style.backgroundImage =
+      "url('img/game-over.webp')";
+    document.getElementById('start-game').style.display = 'flex';
+    document.getElementById('start-game').style.marginTop = '10px';
+    document.getElementById('retry-btn').style.display = 'block';
+    document.getElementById('start-btn').style.display = 'none';
+    document.getElementById('label-nickname').style.display = 'none';
+    document.getElementById('score-text').innerText = myScore.text;
+    infoBtn.style.display = 'none';
+    rankingBtn.style.display = 'none';
+  };
+
   this.crashWith = function (otherobj) {
     let myleft = this.x;
     let myright = this.x + this.width - 4;
@@ -120,16 +133,7 @@ function component(width, height, color, x, y, type) {
       crash = false;
     }
     if (crash) {
-      document.getElementById('start-game').style.backgroundImage =
-        "url('img/game-over.webp')";
-      document.getElementById('start-game').style.display = 'flex';
-      document.getElementById('start-game').style.marginTop = '10px';
-      document.getElementById('retry-btn').style.display = 'block';
-      document.getElementById('start-btn').style.display = 'none';
-      document.getElementById('label-nickname').style.display = 'none';
-      document.getElementById('score-text').innerText = myScore.text;
-      infoBtn.style.display = 'none';
-      rankingBtn.style.display = 'none';
+      gameOver();
     } else {
       document.getElementById('start-game').style.display = 'none';
       document.getElementById('retry-btn').style.display = 'none';
@@ -144,9 +148,9 @@ function updateGameArea() {
   //   this.myScoreNumber < 1500 ? -1 : this.myScoreNumber < 4000 ? -1.5 : -2;
   // let intervall = speed === -1 ? 200 : speed === -1.5 ? 150 : 100;
   let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
-  let intervall = speed === -1.5 ? 160 : 120; //DISTANZA TRA GLI OSTACOLI
-  let dinamicMinGap = intervall === 180 ? 60 : 57; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO
-  let dinamicMaxGap = intervall === 180 ? 150 : 120; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO
+  let intervall = speed === -1.5 ? 160 : 110; //DISTANZA TRA GLI OSTACOLI ASSE X
+  let dinamicMinGap = intervall === 160 ? 59 : 61; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 160 ? 140 : 110; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
@@ -182,7 +186,7 @@ function updateGameArea() {
 }
 
 function updateScore() {
-  const score = myGameArea.frameNo - 490; //PUNTO DI INIZIO PARTENZA PUNTEGGIO
+  const score = myGameArea.frameNo - 490; //PUNTO DI PARTENZA PUNTEGGIO
   this.myScoreNumber = score;
   myScore.text = `SCORE: ${score < 0 ? 0 : score}`;
 }
@@ -198,8 +202,8 @@ function accelerate(n) {
   return (gameCharacter.gravity = n);
 }
 
+//>>>>>>>>>>>>>>>>>>>>>> PER MOBILE
 const flyPoop = document.getElementById('fly-poop');
-
 flyPoop.addEventListener(
   'touchstart',
   function (event) {
@@ -219,6 +223,7 @@ flyPoop.addEventListener(
   false
 );
 
+//>>>>>>>>>>>>>>>> MODALE
 infoBtn.onclick = function () {
   infoModal.style.display = 'block';
 };

@@ -89,7 +89,8 @@ button:hover {
     transform: scale(1, 1);
   }
 }
-.info-btn:hover {
+.info-btn,
+.ranking-btn:hover {
   cursor: pointer;
 }
 .fly-btn {
