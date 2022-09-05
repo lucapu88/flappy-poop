@@ -101,11 +101,11 @@ button:hover {
   font-size: 25px;
   padding: 10px;
   border-radius: 50%;
-  background: rgb(186, 109, 0);
+  background: rgb(144, 86, 49);
   background: radial-gradient(
     circle,
-    rgba(186, 109, 0, 1) 27%,
-    rgba(98, 34, 0, 1) 70%
+    rgba(144, 86, 49, 1) 27%,
+    rgba(179, 234, 71, 1) 70%
   );
   color: #ffff;
   width: 85px;
@@ -211,7 +211,7 @@ button:hover {
     );
     overflow-x: auto;
     position: absolute;
-    top: 110%;
+    top: 100%;
     left: 0;
   }
 }
