@@ -8,6 +8,7 @@ let infoBtn = document.getElementById('info-btn');
 let rankingBtn = document.getElementById('ranking-btn');
 let infoClose = document.getElementsByClassName('close')[0];
 let rankingClose = document.getElementsByClassName('close')[1];
+let audioPlay = false;
 
 function startGame() {
   gameCharacter = new component(55, 40, '', 10, 120, 'img');
@@ -109,6 +110,7 @@ function component(width, height, color, x, y, type) {
     document.getElementById('retry-btn').style.display = 'block';
     document.getElementById('start-btn').style.display = 'none';
     document.getElementById('label-nickname').style.display = 'none';
+    document.getElementById('audio-btn').style.display = 'none';
     document.getElementById('score-text').innerText = myScore.text;
     infoBtn.style.display = 'none';
     rankingBtn.style.display = 'none';
@@ -144,13 +146,13 @@ function component(width, height, color, x, y, type) {
 
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
-  // let speed =
-  //   this.myScoreNumber < 1500 ? -1 : this.myScoreNumber < 4000 ? -1.5 : -2;
-  // let intervall = speed === -1 ? 200 : speed === -1.5 ? 150 : 100;
-  let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
-  let intervall = speed === -1.5 ? 160 : 110; //DISTANZA TRA GLI OSTACOLI ASSE X
+  let speed =
+    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 4000 ? -2.4 : -3.9; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
+  let intervall = speed === -1.5 ? 160 : speed === -2.4 ? 110 : 90; //DISTANZA TRA GLI OSTACOLI ASSE X
+  // let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4;
+  // let intervall = speed === -1.5 ? 160 : 110;
   let dinamicMinGap = intervall === 160 ? 59 : 61; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
-  let dinamicMaxGap = intervall === 160 ? 140 : 110; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 160 ? 140 : intervall === 90 ? 70 : 110; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
@@ -199,6 +201,12 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
+  if (audioPlay && audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+    audio.currentTime = 0;
+  }
   return (gameCharacter.gravity = n);
 }
 
@@ -248,3 +256,15 @@ window.onclick = function (event) {
     rankingModal.style.display = 'none';
   }
 };
+
+//>>>>>>>>>>>>>>>>>>>>> AUDIO
+function toggleAudio() {
+  const audioIcon = document.getElementById('audio-icon');
+  audio.autoplay = true;
+  audioPlay = !audioPlay;
+  if (audioPlay) {
+    audioIcon.src = 'img/sound-on.webp';
+  } else {
+    audioIcon.src = 'img/sound-off.webp';
+  }
+}

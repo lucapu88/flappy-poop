@@ -75,6 +75,19 @@ button:hover {
   bottom: 0;
   left: 0;
 }
+
+.audio-btn {
+  border-radius: 10px;
+  background-color: #b3ea47;
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+}
+.audio-btn > img {
+  background-color: transparent;
+  width: 30px;
+}
+
 .animation-zoom {
   animation: zoominout 1.5s infinite;
 }
@@ -151,7 +164,7 @@ button:hover {
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: bold;
 }
 
