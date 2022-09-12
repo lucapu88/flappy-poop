@@ -49,18 +49,20 @@ button:hover {
   display: none;
 }
 .start-retry-btn {
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 45px;
   margin-top: 5px;
   margin-bottom: 15%;
+  font-size: 20px;
 }
 .label-nickname {
   color: #ffff;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 .custom-text {
   color: #b3ea47;
+  margin: 10px;
 }
 
 .info-btn {
@@ -86,6 +88,7 @@ button:hover {
 .audio-btn > img {
   background-color: transparent;
   width: 30px;
+  height: 25px;
 }
 
 .animation-zoom {
