@@ -310,14 +310,11 @@ window.onclick = function (event) {
 //>>>>>>>>>>>>>>>>>>>>> AUDIO
 function toggleAudio() {
   const audioIcon = document.getElementById('audio-icon');
-  const soundEffect = new Audio();
-  soundEffect.autoplay = true;
+  audio.autoplay = true;
   audioPlay = !audioPlay;
   if (audioPlay) {
     audioIcon.src = 'img/sound-on.webp';
-    soundEffect.src = 'img/sound-on.webp';
   } else {
     audioIcon.src = 'img/sound-off.webp';
-    soundEffect.src = 'img/sound-off.webp';
   }
 }
