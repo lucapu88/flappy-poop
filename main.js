@@ -77,7 +77,10 @@ function component(width, height, color, x, y, type) {
       ctx.drawImage(poo_image, this.x, this.y, width, height);
     } else {
       ctx.fillStyle = color;
-      ctx.fillRect(this.x, this.y, this.width, this.height);
+      // ctx.fillRect(this.x, this.y, this.width, this.height);
+      ctx.beginPath();
+      ctx.roundRect(this.x, this.y, this.width, this.height, [10]);
+      ctx.fill();
     }
   };
   this.newPos = function () {
@@ -147,12 +150,12 @@ function component(width, height, color, x, y, type) {
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
   let speed =
-    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 4000 ? -2.4 : -3.9; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
+    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 3500 ? -2.4 : -3.9; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
   let intervall = speed === -1.5 ? 160 : speed === -2.4 ? 110 : 90; //DISTANZA TRA GLI OSTACOLI ASSE X
   // let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4;
   // let intervall = speed === -1.5 ? 160 : 110;
-  let dinamicMinGap = intervall === 160 ? 59 : 61; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
-  let dinamicMaxGap = intervall === 160 ? 140 : intervall === 90 ? 70 : 110; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMinGap = intervall === 160 ? 58 : 60; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 160 ? 135 : intervall === 90 ? 68 : 105; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
