@@ -27,7 +27,14 @@ function startGame() {
 }
 
 function saveNickname(nickname) {
-  window.localStorage.setItem('nickname', nickname);
+  const nickNameTrim = nickname.trim();
+  if (!nickNameTrim) {
+    //se non viene inserito un nickname lancia un avviso e riavvia.
+    if (!alert('INSERT A NICKNAME!')) {
+      location.reload();
+    }
+  }
+  window.localStorage.setItem('nickname', nickNameTrim);
   document.getElementById('nickname').style.display = 'none';
 }
 
@@ -79,7 +86,8 @@ function component(width, height, color, x, y, type) {
       ctx.fillStyle = color;
       // ctx.fillRect(this.x, this.y, this.width, this.height);
       ctx.beginPath();
-      ctx.roundRect(this.x, this.y, this.width, this.height, [10]);
+      //ctx.roundRect(this.x, this.y, this.width, this.height, [10]);
+      roundRect(ctx, this.x, this.y, this.width, this.height, 10, true);
       ctx.fill();
     }
   };
@@ -147,15 +155,54 @@ function component(width, height, color, x, y, type) {
   };
 }
 
+function roundRect(
+  ctx,
+  x,
+  y,
+  width,
+  height,
+  radius = 5,
+  fill = false,
+  stroke = true
+) {
+  if (typeof radius === 'number') {
+    radius = { tl: radius, tr: radius, br: radius, bl: radius };
+  } else {
+    radius = { ...{ tl: 0, tr: 0, br: 0, bl: 0 }, ...radius };
+  }
+  ctx.beginPath();
+  ctx.moveTo(x + radius.tl, y);
+  ctx.lineTo(x + width - radius.tr, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius.tr);
+  ctx.lineTo(x + width, y + height - radius.br);
+  ctx.quadraticCurveTo(
+    x + width,
+    y + height,
+    x + width - radius.br,
+    y + height
+  );
+  ctx.lineTo(x + radius.bl, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius.bl);
+  ctx.lineTo(x, y + radius.tl);
+  ctx.quadraticCurveTo(x, y, x + radius.tl, y);
+  ctx.closePath();
+  if (fill) {
+    ctx.fill();
+  }
+  if (stroke) {
+    ctx.stroke();
+  }
+}
+
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
   let speed =
-    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 3500 ? -2.4 : -3.9; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
+    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 3800 ? -2.4 : -4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
   let intervall = speed === -1.5 ? 160 : speed === -2.4 ? 110 : 90; //DISTANZA TRA GLI OSTACOLI ASSE X
   // let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4;
   // let intervall = speed === -1.5 ? 160 : 110;
-  let dinamicMinGap = intervall === 160 ? 58 : 60; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
-  let dinamicMaxGap = intervall === 160 ? 135 : intervall === 90 ? 68 : 105; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMinGap = intervall === 160 ? 59 : 65; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 160 ? 130 : intervall === 90 ? 68 : 105; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
