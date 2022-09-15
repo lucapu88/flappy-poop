@@ -260,6 +260,22 @@ function accelerate(n) {
   return (gameCharacter.gravity = n);
 }
 
+function shareLink() {
+  const playStoreUrl =
+    'https://play.google.com/store/apps/details?id=io.kodular.caputoluca88.Shopping_List';
+  const copied = document.getElementById('link-copied');
+
+  navigator.clipboard.writeText(playStoreUrl);
+  document.addEventListener('copy', function (e) {
+    e.clipboardData.setData('text/plain', playStoreUrl);
+    e.preventDefault();
+  });
+  document.execCommand('copy');
+
+  copied.style.display = 'block';
+  setTimeout(() => (copied.style.display = 'none'), 4500);
+}
+
 //>>>>>>>>>>>>>>>>>>>>>> PER MOBILE
 const flyPoop = document.getElementById('fly-poop');
 flyPoop.addEventListener(

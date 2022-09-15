@@ -186,6 +186,27 @@ button:hover {
   width: 23px;
 }
 
+.share-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.share-btn {
+  display: flex;
+  align-items: center;
+}
+.share-btn > img {
+  width: 20px;
+  margin-right: 5px;
+}
+.link-copied {
+  display: none;
+  color: #905631;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .rank-modal-content {
   background-color: #b3ea47;
   margin: auto;
