@@ -8,7 +8,7 @@ let infoBtn = document.getElementById('info-btn');
 let rankingBtn = document.getElementById('ranking-btn');
 let infoClose = document.getElementsByClassName('close')[0];
 let rankingClose = document.getElementsByClassName('close')[1];
-let audioPlay = false;
+let audioIconPlay = false;
 
 function startGame() {
   gameCharacter = new component(55, 40, '', 10, 120, 'img');
@@ -251,7 +251,7 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
-  if (audioPlay && audio.paused) {
+  if (audioIconPlay && audio.paused) {
     audio.play();
   } else {
     audio.pause();
@@ -327,8 +327,8 @@ window.onclick = function (event) {
 function toggleAudio() {
   const audioIcon = document.getElementById('audio-icon');
   audio.autoplay = true;
-  audioPlay = !audioPlay;
-  if (audioPlay) {
+  audioIconPlay = !audioIconPlay;
+  if (audioIconPlay) {
     audioIcon.src = 'img/sound-on.webp';
   } else {
     audioIcon.src = 'img/sound-off.webp';
