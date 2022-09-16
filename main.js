@@ -252,6 +252,7 @@ function everyinterval(n) {
 
 function accelerate(n) {
   if (audioIconPlay && audio.paused) {
+    // audio.load();
     audio.play();
   } else {
     audio.pause();
@@ -326,7 +327,7 @@ window.onclick = function (event) {
 //>>>>>>>>>>>>>>>>>>>>> AUDIO
 function toggleAudio() {
   const audioIcon = document.getElementById('audio-icon');
-  audio.autoplay = true;
+  //audio.autoplay = true;
   audioIconPlay = !audioIconPlay;
   if (audioIconPlay) {
     audioIcon.src = 'img/sound-on.webp';
