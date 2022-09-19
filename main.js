@@ -194,15 +194,17 @@ function roundRect(
   }
 }
 
+const randomIntForIncreaseSpeed = Math.floor(
+  Math.random() * (4100 - 2300 + 1) + 2300
+);
+
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
-  let speed =
-    this.myScoreNumber < 1500 ? -1.5 : this.myScoreNumber < 3800 ? -2.4 : -4; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
-  let intervall = speed === -1.5 ? 160 : speed === -2.4 ? 110 : 90; //DISTANZA TRA GLI OSTACOLI ASSE X
-  // let speed = this.myScoreNumber < 1500 ? -1.5 : -2.4;
-  // let intervall = speed === -1.5 ? 160 : 110;
-  let dinamicMinGap = intervall === 160 ? 59 : 65; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
-  let dinamicMaxGap = intervall === 160 ? 130 : intervall === 90 ? 68 : 105; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+
+  let speed = this.myScoreNumber < randomIntForIncreaseSpeed ? -1.8 : -3.8; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
+  let intervall = speed === -1.8 ? 160 : 70; //DISTANZA TRA GLI OSTACOLI ASSE X
+  let dinamicMinGap = intervall === 160 ? 60 : 65; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 160 ? 120 : 90; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
@@ -238,7 +240,7 @@ function updateGameArea() {
 }
 
 function updateScore() {
-  const score = myGameArea.frameNo - 490; //PUNTO DI PARTENZA PUNTEGGIO
+  const score = myGameArea.frameNo - 410; //PUNTO DI PARTENZA PUNTEGGIO
   this.myScoreNumber = score;
   myScore.text = `SCORE: ${score < 0 ? 0 : score}`;
 }
