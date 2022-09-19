@@ -246,6 +246,22 @@ button:hover {
       rgba(248, 184, 158, 1) 27%,
       rgba(210, 64, 49, 1) 70%
     );
+    -webkit-background: rgb(248, 184, 158);
+    -webkit-background: radial-gradient(
+      circle,
+      rgba(248, 184, 158, 1) 27%,
+      rgba(210, 64, 49, 1) 70%
+    );
+    -o-background: rgb(248, 184, 158);
+    -o-background: radial-gradient(
+      circle,
+      rgba(248, 184, 158, 1) 27%,
+      rgba(210, 64, 49, 1) 70%
+    );
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     overflow-x: auto;
     position: absolute;
     top: 100%;
