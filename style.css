@@ -244,6 +244,13 @@ button:hover {
   font-size: 8px !important;
 }
 
+.no-nickname-modal-content {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
 @supports (-webkit-touch-callout: none) {
   /*Questa cosa la faccio solo ed esclusivamente per provarlo sul mio iphone! 
     Tutto il progetto è trasformato in un'app per android, ma io usando per lo più iphone non riesco a testarlo decentemente.

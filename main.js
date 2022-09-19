@@ -4,38 +4,45 @@ let myScore;
 let myScoreNumber;
 let infoModal = document.getElementById('info-modal');
 let rankingModal = document.getElementById('ranking-modal');
+let insertNicknameModal = document.getElementById('no-nickname-modal');
 let infoBtn = document.getElementById('info-btn');
 let rankingBtn = document.getElementById('ranking-btn');
 let infoClose = document.getElementsByClassName('close')[0];
 let rankingClose = document.getElementsByClassName('close')[1];
+let insertNicknameClose = document.getElementsByClassName('close')[2];
 let audioIconPlay = false;
+let noNickname = false;
 
 function startGame() {
-  gameCharacter = new component(55, 40, '', 10, 120, 'img');
-  gameCharacter.gravity = 0.05;
-  myScore = new component(
-    '30px',
-    "'Lucida Console', 'Courier New', monospace",
-    '#202020',
-    20,
-    30,
-    'text'
-  );
-  document.getElementById('start-game').style.display = 'none';
   this.saveNickname(document.getElementById('nickname').value);
-  myGameArea.start();
+
+  if (noNickname) {
+    gameCharacter = new component(55, 40, '', 10, 120, 'img');
+    gameCharacter.gravity = 0.05;
+    myScore = new component(
+      '30px',
+      "'Lucida Console', 'Courier New', monospace",
+      '#202020',
+      20,
+      30,
+      'text'
+    );
+    document.getElementById('start-game').style.display = 'none';
+    myGameArea.start();
+  }
 }
 
 function saveNickname(nickname) {
   const nickNameTrim = nickname.trim();
   if (!nickNameTrim) {
-    //se non viene inserito un nickname lancia un avviso e riavvia.
-    if (!alert('INSERT A NICKNAME!')) {
-      location.reload();
-    }
+    //se non viene inserito un nickname lancia un avviso.
+    insertNicknameModal.style.display = 'block';
+    noNickname = false;
+  } else {
+    window.localStorage.setItem('nickname', nickNameTrim);
+    document.getElementById('nickname').style.display = 'none';
+    noNickname = true;
   }
-  window.localStorage.setItem('nickname', nickNameTrim);
-  document.getElementById('nickname').style.display = 'none';
 }
 
 async function getNickname() {
@@ -321,12 +328,19 @@ rankingClose.onclick = function () {
   rankingModal.style.display = 'none';
 };
 
+insertNicknameClose.onclick = function () {
+  insertNicknameModal.style.display = 'none';
+};
+
 window.onclick = function (event) {
   if (event.target == infoModal) {
     infoModal.style.display = 'none';
   }
   if (event.target == rankingModal) {
     rankingModal.style.display = 'none';
+  }
+  if (event.target == insertNicknameModal) {
+    insertNicknameModal.style.display = 'none';
   }
 };
 
