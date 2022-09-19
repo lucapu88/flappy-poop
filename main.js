@@ -222,10 +222,11 @@ function updateGameArea() {
     );
     minGap = dinamicMinGap;
     maxGap = dinamicMaxGap;
+    let assholeWidth = 45;
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
-    myObstacles.push(new component(35, height, '#964E00', x, 0));
+    myObstacles.push(new component(assholeWidth, height, '#964E00', x, 0));
     myObstacles.push(
-      new component(35, x - height - gap, '#6A2800', x, height + gap)
+      new component(assholeWidth, x - height - gap, '#6A2800', x, height + gap)
     );
   }
 
