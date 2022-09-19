@@ -181,6 +181,7 @@ button:hover {
 .social {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 .icon {
   width: 23px;
@@ -190,6 +191,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
 }
 .share-btn {
   display: flex;
@@ -205,6 +207,14 @@ button:hover {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+}
+
+.info-problems > p {
+  margin: 0;
+}
+.info-problems-title {
+  text-align: center;
+  font-weight: bold;
 }
 
 .rank-modal-content {
