@@ -202,16 +202,16 @@ function roundRect(
 }
 
 const randomIntForIncreaseSpeed = Math.floor(
-  Math.random() * (4100 - 2300 + 1) + 2300
+  Math.random() * (4150 - 2400 + 1) + 2400
 );
 
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
 
   let speed = this.myScoreNumber < randomIntForIncreaseSpeed ? -1.8 : -3.8; //VELOCITÀ DI SCORRIMENTO OSTACOLI (PIU DIMINUISCI PIÙ VA VELOCE)
-  let intervall = speed === -1.8 ? 150 : 70; //DISTANZA TRA GLI OSTACOLI ASSE X
-  let dinamicMinGap = intervall === 150 ? 60 : 65; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
-  let dinamicMaxGap = intervall === 150 ? 120 : 90; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let intervall = speed === -1.8 ? 150 : 95; //DISTANZA TRA GLI OSTACOLI ASSE X
+  let dinamicMinGap = 60; //DISTANZA MINIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
+  let dinamicMaxGap = intervall === 150 ? 120 : 85; //DISTANZA MASSIMA TRA UN OSTACOLO E L'ALTRO ASSE Y
 
   for (i = 0; i < myObstacles.length; i += 1) {
     if (gameCharacter.crashWith(myObstacles[i])) {
@@ -223,7 +223,7 @@ function updateGameArea() {
   if (myGameArea.frameNo == 1 || everyinterval(intervall)) {
     x = myGameArea.canvas.width;
     minHeight = 20;
-    maxHeight = 200;
+    maxHeight = 270;
     height = Math.floor(
       Math.random() * (maxHeight - minHeight + 1) + minHeight
     );
