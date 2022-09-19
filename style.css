@@ -142,7 +142,7 @@ button:hover {
 
 .modal {
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   padding-top: 100px;
   left: 0;
@@ -234,37 +234,27 @@ button:hover {
   font-size: 8px !important;
 }
 
-@media screen and (min-width: 320px) and (max-width: 667px) and (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vw;
-    background: rgb(248, 184, 158);
-    background: radial-gradient(
-      circle,
-      rgba(248, 184, 158, 1) 27%,
-      rgba(210, 64, 49, 1) 70%
-    );
-    -webkit-background: rgb(248, 184, 158);
-    -webkit-background: radial-gradient(
-      circle,
-      rgba(248, 184, 158, 1) 27%,
-      rgba(210, 64, 49, 1) 70%
-    );
-    -o-background: rgb(248, 184, 158);
-    -o-background: radial-gradient(
-      circle,
-      rgba(248, 184, 158, 1) 27%,
-      rgba(210, 64, 49, 1) 70%
-    );
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    overflow-x: auto;
-    position: absolute;
-    top: 100%;
-    left: 0;
+@supports (-webkit-touch-callout: none) {
+  /*Questa cosa la faccio solo ed esclusivamente per provarlo sul mio iphone! 
+    Tutto il progetto è trasformato in un'app per android, ma io usando per lo più iphone non riesco a testarlo decentemente.
+    Utilizzo questo accrocco per vederlo come sarebbe per la normale app.
+    Il giorno in cui deciderò di portare l'app anche su dispositivi IOS eliminerò questa parte.*/
+  @media screen and (min-width: 320px) and (max-width: 667px) and (orientation: portrait) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vw;
+      height: 100vh;
+      background: rgb(248, 184, 158);
+      background: radial-gradient(
+        circle,
+        rgba(248, 184, 158, 1) 27%,
+        rgba(210, 64, 49, 1) 70%
+      );
+      overflow: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
   }
 }

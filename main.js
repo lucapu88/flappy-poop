@@ -251,13 +251,17 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
+  soundFart();
+  return (gameCharacter.gravity = n);
+}
+
+function soundFart() {
   if (audioIconPlay && audio.paused) {
     audio.play();
   } else {
     audio.pause();
     audio.currentTime = 0;
   }
-  return (gameCharacter.gravity = n);
 }
 
 function shareLink() {
