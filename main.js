@@ -204,6 +204,9 @@ function roundRect(
 const randomIntForIncreaseSpeed = Math.floor(
   Math.random() * (4150 - 2400 + 1) + 2400
 );
+const randomIntForChangeAsshole = Math.floor(
+  Math.random() * (7000 - 6000 + 1) + 6000
+);
 
 function updateGameArea() {
   let x, height, gap, minHeight, maxHeight, minGap, maxGap;
@@ -229,11 +232,23 @@ function updateGameArea() {
     );
     minGap = dinamicMinGap;
     maxGap = dinamicMaxGap;
-    let assholeWidth = 45;
+    const ifScoreGoesUpLot = this.myScoreNumber > randomIntForChangeAsshole;
+    const assholeWidth = ifScoreGoesUpLot ? 75 : 45;
+    const topAssholeColor = ifScoreGoesUpLot ? '#744009' : '#964E00';
+    const bottomAssholeColor = ifScoreGoesUpLot ? '#451b00' : '#6A2800';
+
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
-    myObstacles.push(new component(assholeWidth, height, '#964E00', x, 0));
     myObstacles.push(
-      new component(assholeWidth, x - height - gap, '#6A2800', x, height + gap)
+      new component(assholeWidth, height, topAssholeColor, x, 0)
+    );
+    myObstacles.push(
+      new component(
+        assholeWidth,
+        x - height - gap,
+        bottomAssholeColor,
+        x,
+        height + gap
+      )
     );
   }
 
