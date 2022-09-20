@@ -276,7 +276,6 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
-  soundFart();
   return (gameCharacter.gravity = n);
 }
 
@@ -325,6 +324,7 @@ flyPoop.addEventListener(
   },
   false
 );
+flyPoop.addEventListener('touchend', soundFart);
 
 //>>>>>>>>>>>>>>>> MODALE
 infoBtn.onclick = function () {
