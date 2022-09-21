@@ -1,9 +1,8 @@
 body {
-  width: 760px;
-  height: 390px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   font-family: 'Lucida Console', 'Courier New', monospace;
-  position: relative;
   background: rgb(248, 184, 158);
   background: radial-gradient(
     circle,
@@ -30,7 +29,11 @@ button:hover {
 .container {
   width: 100%;
   height: 100%;
-  background-color: #905631;
+  background: radial-gradient(
+    circle,
+    rgba(248, 184, 158, 1) 27%,
+    rgba(210, 64, 49, 1) 70%
+  );
   background-image: url(img/start-page.webp);
   background-position: top;
   background-repeat: no-repeat;
@@ -72,21 +75,21 @@ button:hover {
 .info-btn {
   width: 90px;
   position: absolute;
-  bottom: 0%;
-  right: 2%;
+  bottom: 4%;
+  right: 3%;
 }
 .ranking-btn {
   width: 110px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 4%;
+  left: 2%;
 }
 
 .audio-btn {
   border-radius: 10px;
   background-color: #b3ea47;
   position: absolute;
-  bottom: 5%;
+  bottom: 6%;
   left: 15%;
   -webkit-box-shadow: 0px 0px 25px 0px #000000;
   -moz-box-shadow: 0px 0px 25px 0px #000000;
@@ -151,7 +154,7 @@ button:hover {
 .modal {
   display: none;
   position: absolute;
-  z-index: 1;
+  z-index: 200;
   padding-top: 100px;
   left: 0;
   bottom: -5px;
@@ -278,8 +281,16 @@ button:hover {
       );
       overflow: hidden;
       position: absolute;
-      top: 100%;
+      top: 103%;
       left: 0;
+    }
+    body {
+      width: 760px;
+      height: 415px;
+      position: relative;
+    }
+    .rank-modal-content {
+      width: 85%;
     }
   }
 }

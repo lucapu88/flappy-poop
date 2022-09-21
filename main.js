@@ -12,6 +12,7 @@ let rankingClose = document.getElementsByClassName('close')[1];
 let insertNicknameClose = document.getElementsByClassName('close')[2];
 let audioIconPlay = false;
 let noNickname = false;
+let iosDevice = false;
 
 function startGame() {
   this.saveNickname(document.getElementById('nickname').value);
@@ -52,11 +53,27 @@ async function getNickname() {
     : (document.getElementById('nickname').placeholder = 'Enter your nickname');
 }
 
+function getIos() {
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    iosDevice = true;
+  }
+}
+getIos();
+
 let myGameArea = {
   canvas: document.createElement('canvas'),
   start: function () {
-    this.canvas.width = 750;
-    this.canvas.height = 390;
+    if (iosDevice) {
+      //questa cosa la faccio solo per vederlo suo mio iphone
+      this.canvas.width = 750;
+      this.canvas.height = 415;
+    } else {
+      this.canvas.width = window.innerWidth;
+      this.canvas.height =
+        window.innerHeight <= 1000 ? window.innerHeight : 1000;
+    }
+
     this.context = this.canvas.getContext('2d');
     document.body.insertBefore(this.canvas, document.body.childNodes[0]);
     this.frameNo = 0;
@@ -91,9 +108,7 @@ function component(width, height, color, x, y, type) {
       ctx.drawImage(poo_image, this.x, this.y, width, height);
     } else {
       ctx.fillStyle = color;
-      // ctx.fillRect(this.x, this.y, this.width, this.height);
       ctx.beginPath();
-      //ctx.roundRect(this.x, this.y, this.width, this.height, [10]);
       roundRect(ctx, this.x, this.y, this.width, this.height, 10, true);
       ctx.fill();
     }
@@ -124,7 +139,6 @@ function component(width, height, color, x, y, type) {
     document.getElementById('start-game').style.backgroundImage =
       "url('img/game-over.webp')";
     document.getElementById('start-game').style.display = 'flex';
-    document.getElementById('start-game').style.marginTop = '10px';
     document.getElementById('retry-btn').style.display = 'block';
     document.getElementById('start-btn').style.display = 'none';
     document.getElementById('label-nickname').style.display = 'none';
@@ -132,6 +146,7 @@ function component(width, height, color, x, y, type) {
     document.getElementById('score-text').innerText = myScore.text;
     infoBtn.style.display = 'none';
     rankingBtn.style.display = 'none';
+    document.body.style.overflow = 'hidden';
   };
 
   this.crashWith = function (otherobj) {
