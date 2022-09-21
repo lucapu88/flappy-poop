@@ -278,7 +278,8 @@ function updateGameArea() {
 }
 
 function updateScore() {
-  const score = myGameArea.frameNo - 410; //PUNTO DI PARTENZA PUNTEGGIO
+  const calcToScore = myGameArea.frameNo - 400;
+  const score = Math.ceil(calcToScore); //PUNTO DI PARTENZA PUNTEGGIO
   this.myScoreNumber = score;
   myScore.text = `SCORE: ${score < 0 ? 0 : score}`;
 }
