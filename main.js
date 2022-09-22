@@ -77,7 +77,7 @@ let myGameArea = {
     this.context = this.canvas.getContext('2d');
     document.body.insertBefore(this.canvas, document.body.childNodes[0]);
     this.frameNo = 0;
-    this.interval = setInterval(updateGameArea, 20);
+    startInterval = setInterval(updateGameArea, 20);
   },
   clear: function () {
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -136,6 +136,7 @@ function component(width, height, color, x, y, type) {
   };
 
   const gameOver = () => {
+    clearInterval(startInterval);
     document.getElementById('start-game').style.backgroundImage =
       "url('img/game-over.webp')";
     document.getElementById('start-game').style.display = 'flex';
@@ -147,7 +148,18 @@ function component(width, height, color, x, y, type) {
     infoBtn.style.display = 'none';
     rankingBtn.style.display = 'none';
     document.body.style.overflow = 'hidden';
+
+    gameOverAudioPlay();
   };
+
+  function gameOverAudioPlay() {
+    if (audioIconPlay && audio.paused) {
+      audio.pause();
+      audio.currentTime = 0;
+      audio.src = 'sounds/toilet.mp3';
+      audio.play();
+    }
+  }
 
   this.crashWith = function (otherobj) {
     let myleft = this.x;
