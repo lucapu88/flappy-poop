@@ -136,6 +136,7 @@ function component(width, height, color, x, y, type) {
   };
 
   const gameOver = () => {
+    document.getElementById('start-game').style.backgroundColor = '#e26b6d';
     clearInterval(startInterval);
     document.getElementById('start-game').style.backgroundImage =
       "url('img/game-over.webp')";
