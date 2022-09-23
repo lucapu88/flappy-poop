@@ -152,17 +152,8 @@ function component(width, height, color, x, y, type) {
     rankingBtn.style.display = 'none';
     document.body.style.overflow = 'hidden';
 
-    gameOverAudioPlay();
+    playAudio('gameOver');
   };
-
-  function gameOverAudioPlay() {
-    if (audioIconPlay && audio.paused) {
-      audio.pause();
-      audio.currentTime = 0;
-      audio.src = 'sounds/toilet.mp3';
-      audio.play();
-    }
-  }
 
   this.crashWith = function (otherobj) {
     let myleft = this.x;
@@ -267,6 +258,18 @@ function updateGameArea() {
     const topAssholeColor = ifScoreGoesUpLot ? '#744009' : '#964E00';
     const bottomAssholeColor = ifScoreGoesUpLot ? '#451b00' : '#6A2800';
 
+    if (
+      this.myScoreNumber > randomIntForIncreaseSpeed &&
+      this.myScoreNumber < randomIntForIncreaseSpeed + 150
+    ) {
+      //Accrocco per far partire l'audio una sola volta, visto che siamo già dentro una funzione che viene richiamata più e più volte.
+      /*
+        In pratica se randomIntForIncreaseSpeed ad esempio è = a 3000 e il punteggio (this.myScoreNumber) supera i 3000, 
+        parte l'audio ma poi andrebbe in loop infinito perchè ormai ha superato i 3000. Quindi se invece è anche inferiore a 3000 + 150 si ferma!
+        Quindi this.myScoreNumber: 3000 parte l'audio fino a this.myScoreNumber: 3150 e poi si ferma perchè la funzione non viene più eseguita.
+      */
+      playAudio('ifScoreGoesUpLot');
+    }
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
     myObstacles.push(
       new component(assholeWidth, height, topAssholeColor, x, 0)
@@ -297,6 +300,28 @@ function updateScore() {
   const score = Math.ceil(calcToScore); //PUNTO DI PARTENZA PUNTEGGIO
   this.myScoreNumber = score;
   myScore.text = `SCORE: ${score < 0 ? 0 : score}`;
+}
+
+function playAudio(audioType) {
+  if (audioIconPlay && audio.paused) {
+    switch (audioType) {
+      case 'gameOver':
+        audio.pause();
+        audio.currentTime = 0;
+        audio.src = 'sounds/toilet.mp3';
+        audio.play();
+        break;
+
+      case 'ifScoreGoesUpLot':
+        let ohMyGod = new Audio();
+        ohMyGod.src = 'sounds/oh-my-god.mp3';
+        ohMyGod.play();
+        break;
+
+      default:
+        break;
+    }
+  }
 }
 
 function everyinterval(n) {
