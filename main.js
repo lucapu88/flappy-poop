@@ -29,7 +29,9 @@ function startGame() {
       'text'
     );
     document.getElementById('start-game').style.display = 'none';
-    myGameArea.start();
+    if (gameCharacter) {
+      myGameArea.start();
+    }
   }
 }
 
