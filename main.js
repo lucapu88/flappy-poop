@@ -223,7 +223,7 @@ function roundRect(
 }
 
 const randomIntForIncreaseSpeed = Math.floor(
-  Math.random() * (4150 - 2400 + 1) + 2400
+  Math.random() * (4050 - 2200 + 1) + 2200
 );
 const randomIntForChangeAsshole = Math.floor(
   Math.random() * (7000 - 6000 + 1) + 6000
@@ -265,10 +265,17 @@ function updateGameArea() {
       //Accrocco per far partire l'audio una sola volta, visto che siamo già dentro una funzione che viene richiamata più e più volte.
       /*
         In pratica se randomIntForIncreaseSpeed ad esempio è = a 3000 e il punteggio (this.myScoreNumber) supera i 3000, 
-        parte l'audio ma poi andrebbe in loop infinito perchè ormai ha superato i 3000. Quindi se invece è anche inferiore a 3000 + 150 si ferma!
-        Quindi this.myScoreNumber: 3000 parte l'audio fino a this.myScoreNumber: 3150 e poi si ferma perchè la funzione non viene più eseguita.
+        parte l'audio ma poi andrebbe in loop infinito perchè ormai ha superato i 3000 e sarà sempre sopra i 3000. 
+        Quindi se invece è anche inferiore a 3000 + 150 si ferma!
+        Quindi a this.myScoreNumber: 3000 parte l'audio fino a this.myScoreNumber: 3150 e poi si ferma perchè la funzione non viene più eseguita.
       */
-      playAudio('ifScoreGoesUpLot');
+      playAudio('scoreGoesUpLot');
+    }
+    if (
+      this.myScoreNumber > randomIntForChangeAsshole &&
+      this.myScoreNumber < randomIntForChangeAsshole + 150
+    ) {
+      playAudio('scoreCrazyLevels');
     }
     gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
     myObstacles.push(
@@ -312,10 +319,16 @@ function playAudio(audioType) {
         audio.play();
         break;
 
-      case 'ifScoreGoesUpLot':
+      case 'scoreGoesUpLot':
         let ohMyGod = new Audio();
         ohMyGod.src = 'sounds/oh-my-god.mp3';
         ohMyGod.play();
+        break;
+
+      case 'scoreCrazyLevels':
+        let ohShit = new Audio();
+        ohShit.src = 'sounds/oh-shit.mp3';
+        ohShit.play();
         break;
 
       default:
