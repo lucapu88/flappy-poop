@@ -34,7 +34,7 @@
       >
         Retry
       </button>
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>MODALE INFO<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>MODALE INFO<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
       <div id="info-modal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
@@ -101,48 +101,26 @@
         <div class="rank-modal-content">
           <span class="close">&times;</span>
           <h1 class="rank-modal-title">GLOBAL SCORES</h1>
-          
             <div class="scores-container">
+              <!-- per il momento ne metto 10+5 ma in futuro se l'app cresce ne metto 20/30, quindi altri <div class="second/third-ten"> ecc. -->
               <div class="first-ten">
-                <ul>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                </ul>
-              </div>
-              <div class="second-ten">
-                <ul>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                </ul>
-              </div>
-              <div class="third-ten">
-                <ul>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
-                  <li>1 user</li>
+                <ul id="users-container" class="users-container">
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <!-- per il momento aggiungo 5 e ne faccio 15 totali -->
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
+                  <li id="user" class="user">NO-USER <span id="score" class="score">0</span></li>
                 </ul>
               </div>
             </div>
@@ -184,4 +162,7 @@
     </button>
   </body>
   <script src="main.js" charset="utf-8"></script>
+  <script type="module">
+    const _0x42921a=_0x2b96;(function(_0x103edf,_0x293fd3){const _0x58dad9=_0x2b96,_0x390f82=_0x103edf();while(!![]){try{const _0x1783ce=-parseInt(_0x58dad9(0xc0))/0x1+-parseInt(_0x58dad9(0xa8))/0x2+-parseInt(_0x58dad9(0xaa))/0x3+-parseInt(_0x58dad9(0xb4))/0x4+parseInt(_0x58dad9(0xca))/0x5*(-parseInt(_0x58dad9(0xb7))/0x6)+-parseInt(_0x58dad9(0xcd))/0x7*(parseInt(_0x58dad9(0xc2))/0x8)+-parseInt(_0x58dad9(0xcb))/0x9*(-parseInt(_0x58dad9(0xc3))/0xa);if(_0x1783ce===_0x293fd3)break;else _0x390f82['push'](_0x390f82['shift']());}catch(_0x40edfb){_0x390f82['push'](_0x390f82['shift']());}}}(_0x63d5,0xc51c1));import{initializeApp}from'https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js';import{getAnalytics}from'https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js';const firebaseConfig={'apiKey':_0x42921a(0xce),'authDomain':'my-data-b4be7.firebaseapp.com','projectId':_0x42921a(0xb2),'storageBucket':_0x42921a(0xac),'messagingSenderId':_0x42921a(0xc4),'appId':_0x42921a(0xbe),'measurementId':_0x42921a(0xc9)},app=initializeApp(firebaseConfig),analytics=getAnalytics(app);function _0x2b96(_0x2cfc23,_0x2724cd){const _0x63d5ce=_0x63d5();return _0x2b96=function(_0x2b9600,_0xd5e46c){_0x2b9600=_0x2b9600-0xa6;let _0x11c172=_0x63d5ce[_0x2b9600];return _0x11c172;},_0x2b96(_0x2cfc23,_0x2724cd);}import{getDatabase,ref,set,get,update,child,remove}from'https://www.gstatic.com/firebasejs/9.10.0/firebase-database.js';const db=getDatabase();document['addEventListener'](_0x42921a(0xbd),getData);const nickname=localStorage['getItem']('nickname'),score=localStorage[_0x42921a(0xaf)]('punt'),errorMessage=_0x42921a(0xa9);function _0x63d5(){const _0x290044=['431944pclkqj','1400VaQJMI','622814559319','#user','log','getElementById','users-container','G-409CRK129C','298940EDnUhG','280710rbxWMP','push','91dawBga','AIzaSyCXSfNY8_Mi446Mb7uQAD8USFViaRHyMss','score','username','1276518WGLQTJ','<h2>Oops\x20there\x20was\x20an\x20error,\x20please\x20restart\x20the\x20app\x20and\x20try\x20again.</h2>\x20\x0a\x20\x20\x20\x20<h4>If\x20the\x20error\x20persists,\x20contact\x20support\x20by\x20clicking\x20<a\x20href=\x22mailto:lucarhcp88@hotmail.it\x22>here</a>.</h4>','2640606jQeOAp','slice','my-data-b4be7.appspot.com','map','innerHTML','getItem','\x20<span\x20id=\x22score\x22\x20class=\x22score\x22>','then','my-data-b4be7','exists','504032yehlqe','</span>','localStorage','24eMWgTM','length','catch','forEach','users/','val','DOMContentLoaded','1:622814559319:web:603a6c1320cc52044fb712','setItem','973709xpQGYu','...'];_0x63d5=function(){return _0x290044;};return _0x63d5();}function insertData(){const _0x685fd7=_0x42921a;+score>0x0&&set(ref(db,_0x685fd7(0xbb)+score),{'username':nickname,'score':score})[_0x685fd7(0xb9)](_0x5cf08b=>{const _0x36a333=_0x685fd7;document['getElementById'](_0x36a333(0xc8))[_0x36a333(0xae)]=errorMessage,console['log'](_0x5cf08b);});};function selectData(_0x1880b8){const _0x44fbc1=_0x42921a,_0x4a6832=ref(db);get(child(_0x4a6832,_0x44fbc1(0xbb)+_0x1880b8[0x0][_0x44fbc1(0xa6)]))[_0x44fbc1(0xb1)](_0x4e7a03=>{const _0x2813db=_0x44fbc1;_0x4e7a03[_0x2813db(0xb3)]()&&updateData(_0x4e7a03[_0x2813db(0xbc)]());})[_0x44fbc1(0xb9)](_0x5cfa3d=>{const _0x238fe2=_0x44fbc1;document[_0x238fe2(0xc7)]('users-container')[_0x238fe2(0xae)]=errorMessage,console[_0x238fe2(0xc6)](_0x5cfa3d);});}function updateData(_0x4289c9){update(ref(db,'users/'+_0x4289c9['score']),{'username':nickname,'score':score})['catch'](_0x2995f6=>{const _0x441bcd=_0x2b96;document[_0x441bcd(0xc7)]('users-container')[_0x441bcd(0xae)]=errorMessage,console['log'](_0x2995f6);});}function getData(){const _0x5abc6c=_0x42921a,_0x5680a6=0xe,_0x3f62f5=ref(db);get(child(_0x3f62f5,_0x5abc6c(0xbb)))[_0x5abc6c(0xb1)](_0x301763=>{const _0x27a155=_0x5abc6c,_0x24a272=[];_0x301763[_0x27a155(0xba)](_0x5323f1=>{const _0x25df10=_0x27a155;_0x24a272[_0x25df10(0xcc)](_0x5323f1[_0x25df10(0xbc)]());});const _0x12b5c3=_0x24a272['sort']((_0x3a3449,_0x5357f2)=>{const _0x5de1f1=_0x27a155;return _0x3a3449[_0x5de1f1(0xa6)]-_0x5357f2['score'];})['reverse']();if(_0x12b5c3['length']<=_0x5680a6)insertData();else{const _0x254501=_0x12b5c3[_0x27a155(0xab)](-0x1);selectData(_0x254501);}const _0x5b8c21=document['querySelectorAll'](_0x27a155(0xc5));_0x5b8c21[_0x27a155(0xba)]((_0x38ba61,_0x3cf146)=>{const _0x4e182c=_0x27a155;_0x12b5c3[_0x4e182c(0xad)]((_0x3b629d,_0x5bf6aa)=>{const _0x385ef3=_0x4e182c;if(_0x5bf6aa===_0x3cf146){const _0x4aca58=_0x3b629d[_0x385ef3(0xa7)][_0x385ef3(0xb8)]>0xf?_0x3b629d[_0x385ef3(0xa7)]['slice'](0x0,0x14)+_0x385ef3(0xc1):_0x3b629d['username'];_0x38ba61[_0x385ef3(0xae)]=_0x3cf146+0x1+'\x20\x20'+_0x4aca58+_0x385ef3(0xb0)+_0x3b629d[_0x385ef3(0xa6)]+_0x385ef3(0xb5),window[_0x385ef3(0xb6)][_0x385ef3(0xbf)]('punt',0x0);}});});})[_0x5abc6c(0xb9)](_0x5d9c6e=>{const _0x95b626=_0x5abc6c;document[_0x95b626(0xc7)](_0x95b626(0xc8))['innerHTML']=errorMessage,console['log'](_0x5d9c6e);});};
+  </script>
 </html>
