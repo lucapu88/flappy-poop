@@ -1,671 +1,673 @@
-const _0xaef252 = _0x19f6;
-(function (_0x1f03b4, _0x323591) {
-  const _0x2f8da6 = _0x19f6,
-    _0x2ef588 = _0x1f03b4();
+const _0x2a4098 = _0x41ba;
+(function (_0x575a95, _0xfff9ad) {
+  const _0x1fb965 = _0x41ba,
+    _0x2d04b4 = _0x575a95();
   while (!![]) {
     try {
-      const _0x21d302 =
-        (parseInt(_0x2f8da6(0x105)) / 0x1) *
-          (-parseInt(_0x2f8da6(0xf3)) / 0x2) +
-        (parseInt(_0x2f8da6(0x110)) / 0x3) * (parseInt(_0x2f8da6(0xd0)) / 0x4) +
-        (-parseInt(_0x2f8da6(0xc9)) / 0x5) *
-          (-parseInt(_0x2f8da6(0xc4)) / 0x6) +
-        -parseInt(_0x2f8da6(0xf9)) / 0x7 +
-        (-parseInt(_0x2f8da6(0x10a)) / 0x8) *
-          (-parseInt(_0x2f8da6(0xb3)) / 0x9) +
-        parseInt(_0x2f8da6(0x101)) / 0xa +
-        (parseInt(_0x2f8da6(0xb1)) / 0xb) * (-parseInt(_0x2f8da6(0xe0)) / 0xc);
-      if (_0x21d302 === _0x323591) break;
-      else _0x2ef588['push'](_0x2ef588['shift']());
-    } catch (_0x149bce) {
-      _0x2ef588['push'](_0x2ef588['shift']());
+      const _0xe3215a =
+        (parseInt(_0x1fb965(0x104)) / 0x1) *
+          (parseInt(_0x1fb965(0x106)) / 0x2) +
+        (-parseInt(_0x1fb965(0x11e)) / 0x3) *
+          (-parseInt(_0x1fb965(0xee)) / 0x4) +
+        -parseInt(_0x1fb965(0xc2)) / 0x5 +
+        (-parseInt(_0x1fb965(0x120)) / 0x6) *
+          (parseInt(_0x1fb965(0xbd)) / 0x7) +
+        parseInt(_0x1fb965(0xf3)) / 0x8 +
+        parseInt(_0x1fb965(0xe8)) / 0x9 +
+        (parseInt(_0x1fb965(0xb8)) / 0xa) * (parseInt(_0x1fb965(0xf0)) / 0xb);
+      if (_0xe3215a === _0xfff9ad) break;
+      else _0x2d04b4['push'](_0x2d04b4['shift']());
+    } catch (_0x5f0608) {
+      _0x2d04b4['push'](_0x2d04b4['shift']());
     }
   }
-})(_0x599e, 0x252f1);
-function _0x599e() {
-  const _0x321733 = [
-    '0px\x200px\x2035px\x206px\x20#000000',
-    'fillStyle',
-    'getContext',
-    'scoreGoesUpLot',
-    '#451b00',
-    'src',
-    'moveTo',
-    'length',
-    'volume',
-    'insertBefore',
-    'text',
-    '11RUTGjC',
-    'score-text',
-    '9JPFeJM',
-    'overflow',
-    'frameNo',
-    'fill',
-    '#964E00',
-    'speedY',
-    'quadraticCurveTo',
-    'localStorage',
-    'closePath',
-    'userAgent',
-    'display',
-    'gravity',
-    'update',
-    'link-copied',
-    'target',
-    'backgroundImage',
-    'getElementsByClassName',
-    '666gXBwPm',
-    'body',
-    'pause',
-    'url(\x27img/game-over.webp\x27)',
-    'random',
-    '8485xXhOdP',
-    'opera',
-    'img/flying_poop.webp',
-    'retry-btn',
-    'touchstart',
-    'img/sound-off.webp',
-    'img',
-    '132DyBoBS',
-    'Enter\x20your\x20nickname',
-    'sounds/toilet.mp3',
-    'writeText',
-    'hitTop',
-    'context',
-    'MSStream',
-    '#744009',
-    'trim',
-    'autoplay',
-    'mousedown',
-    'innerHeight',
-    'ranking-btn',
-    'width',
-    'childNodes',
-    'sounds/oh-shit.mp3',
-    '1736712RDhUpC',
-    '#6A2800',
-    'crashWith',
-    'flex',
-    'punt',
-    'play',
-    'img/sound-on.webp',
-    'start-btn',
-    'speedX',
-    'myScoreNumber',
-    'hitBottom',
-    'audio-icon',
-    'none',
-    'height',
-    'clipboardData',
-    'scoreCrazyLevels',
-    '#202020',
-    'boxShadow',
-    'backgroundColor',
-    '834bcWniQ',
-    'drawImage',
-    '#e26b6d',
-    'start-game',
-    'addEventListener',
-    'gravitySpeed',
-    '1009981WReymK',
-    'value',
-    'execCommand',
-    'nickname',
-    'score',
-    'clipboard',
-    'getItem',
-    'block',
-    '2510360XQiWUh',
-    'ranking-modal',
-    'info-modal',
-    'sounds/MasterOfPuppets.mp3',
-    '673RNTfQt',
-    'style',
-    'innerWidth',
-    'test',
-    'innerText',
-    '1966320xFzCnz',
-    'label-nickname',
-    'beginPath',
-    'SCORE:\x20',
-    'vendor',
-    'gameOver',
-    '3342YuPlGm',
-    '30px',
-    'type',
-    'loop',
-    'push',
-    'onclick',
-    'canvas',
-    'https://play.google.com/store/apps/details?id=io.kodular.caputoluca88.Shopping_List',
-    'fillText',
-    'lineTo',
-    'text/plain',
-    'close',
-    'setItem',
-    'paused',
-    'preventDefault',
-    'ceil',
-    'fly-poop',
-    'floor',
-    'getElementById',
-    'createElement',
-    'touchend',
-    'newPos',
-    'currentTime',
-  ];
-  _0x599e = function () {
-    return _0x321733;
-  };
-  return _0x599e();
-}
+})(_0xd852, 0xe0eec);
 let gameCharacter,
   myObstacles = [],
   myScore,
   myScoreNumber,
-  infoModal = document[_0xaef252(0xa1)](_0xaef252(0x103)),
-  rankingModal = document[_0xaef252(0xa1)](_0xaef252(0x102)),
-  insertNicknameModal = document[_0xaef252(0xa1)]('no-nickname-modal'),
-  infoBtn = document[_0xaef252(0xa1)]('info-btn'),
-  rankingBtn = document[_0xaef252(0xa1)](_0xaef252(0xdc)),
-  infoClose = document[_0xaef252(0xc3)]('close')[0x0],
-  rankingClose = document['getElementsByClassName'](_0xaef252(0x11b))[0x1],
-  insertNicknameClose = document[_0xaef252(0xc3)]('close')[0x2],
+  infoModal = document[_0x2a4098(0xf6)]('info-modal'),
+  rankingModal = document[_0x2a4098(0xf6)](_0x2a4098(0x100)),
+  insertNicknameModal = document[_0x2a4098(0xf6)](_0x2a4098(0xac)),
+  infoBtn = document[_0x2a4098(0xf6)](_0x2a4098(0x11d)),
+  rankingBtn = document[_0x2a4098(0xf6)]('ranking-btn'),
+  infoClose = document['getElementsByClassName']('close')[0x0],
+  rankingClose = document[_0x2a4098(0xe2)](_0x2a4098(0xf4))[0x1],
+  insertNicknameClose = document[_0x2a4098(0xe2)](_0x2a4098(0xf4))[0x2],
+  startBtn = document[_0x2a4098(0xf6)](_0x2a4098(0x11a)),
   audioIconPlay = ![],
   noNickname = ![],
   iosDevice = ![],
   punt;
 function startGame() {
-  const _0x457959 = _0xaef252;
-  this['saveNickname'](document['getElementById'](_0x457959(0xfc))['value']),
+  const _0x22d64d = _0x2a4098;
+  this[_0x22d64d(0xe7)](
+    document[_0x22d64d(0xf6)](_0x22d64d(0x109))[_0x22d64d(0xc8)]
+  ),
+    soundFart(),
     noNickname &&
-      ((gameCharacter = new component(
-        0x37,
-        0x28,
-        '',
-        0xa,
-        0x78,
-        _0x457959(0xcf)
-      )),
-      (gameCharacter[_0x457959(0xbe)] = 0.05),
+      ((gameCharacter = new component(0x37, 0x28, '', 0xa, 0x78, 'img')),
+      (gameCharacter['gravity'] = 0.05),
       (myScore = new component(
-        _0x457959(0x111),
-        '\x27Lucida\x20Console\x27,\x20\x27Courier\x20New\x27,\x20monospace',
-        _0x457959(0xf0),
+        _0x22d64d(0x117),
+        _0x22d64d(0xbc),
+        _0x22d64d(0xff),
         0x14,
         0x1e,
-        _0x457959(0xb0)
+        'text'
       )),
-      (document['getElementById'](_0x457959(0xf6))['style'][_0x457959(0xbd)] =
-        _0x457959(0xec)),
-      gameCharacter && myGameArea['start']());
+      (document[_0x22d64d(0xf6)](_0x22d64d(0xd4))[_0x22d64d(0xf5)][
+        _0x22d64d(0xf7)
+      ] = _0x22d64d(0xe4)),
+      gameCharacter && myGameArea[_0x22d64d(0xe3)]());
 }
-function saveNickname(_0x4f310e) {
-  const _0xa026c9 = _0xaef252,
-    _0x17dc3c = _0x4f310e[_0xa026c9(0xd8)]();
-  !_0x17dc3c
-    ? ((insertNicknameModal[_0xa026c9(0x106)][_0xa026c9(0xbd)] =
-        _0xa026c9(0x100)),
+function saveNickname(_0x242ec3) {
+  const _0x3adf6c = _0x2a4098,
+    _0x5b6cf4 = _0x242ec3[_0x3adf6c(0xc6)]();
+  !_0x5b6cf4
+    ? ((insertNicknameModal[_0x3adf6c(0xf5)]['display'] = _0x3adf6c(0xfa)),
       (noNickname = ![]))
-    : (window[_0xa026c9(0xba)]['setItem'](_0xa026c9(0xfc), _0x17dc3c),
-      (document['getElementById'](_0xa026c9(0xfc))[_0xa026c9(0x106)][
-        _0xa026c9(0xbd)
-      ] = _0xa026c9(0xec)),
+    : (window['localStorage']['setItem'](_0x3adf6c(0x109), _0x5b6cf4),
+      (document['getElementById'](_0x3adf6c(0x109))['style'][_0x3adf6c(0xf7)] =
+        'none'),
       (noNickname = !![]));
 }
 async function getNickname() {
-  const _0x2f1743 = _0xaef252,
-    _0x5923f0 = await localStorage[_0x2f1743(0xff)]('nickname');
-  _0x5923f0
-    ? (document[_0x2f1743(0xa1)]('nickname')[_0x2f1743(0xfa)] = _0x5923f0)
-    : (document[_0x2f1743(0xa1)](_0x2f1743(0xfc))['placeholder'] =
-        _0x2f1743(0xd1));
+  const _0x243a4f = _0x2a4098,
+    _0x6bdc79 = await localStorage[_0x243a4f(0x108)](_0x243a4f(0x109));
+  _0x6bdc79
+    ? (document[_0x243a4f(0xf6)](_0x243a4f(0x109))[_0x243a4f(0xc8)] = _0x6bdc79)
+    : (document[_0x243a4f(0xf6)](_0x243a4f(0x109))[_0x243a4f(0x114)] =
+        _0x243a4f(0xcb));
+}
+function _0x41ba(_0x34887c, _0x4f5b61) {
+  const _0xd852b4 = _0xd852();
+  return (
+    (_0x41ba = function (_0x41ba03, _0x4e3b71) {
+      _0x41ba03 = _0x41ba03 - 0xa4;
+      let _0x3100b3 = _0xd852b4[_0x41ba03];
+      return _0x3100b3;
+    }),
+    _0x41ba(_0x34887c, _0x4f5b61)
+  );
 }
 function getIos() {
-  const _0x2f95d0 = _0xaef252,
-    _0x2454d4 =
-      navigator[_0x2f95d0(0xbc)] ||
-      navigator[_0x2f95d0(0x10e)] ||
-      window[_0x2f95d0(0xca)];
-  /iPad|iPhone|iPod/[_0x2f95d0(0x108)](_0x2454d4) &&
-    !window[_0x2f95d0(0xd6)] &&
+  const _0x30d0fa = _0x2a4098,
+    _0x3a9efa =
+      navigator[_0x30d0fa(0x101)] ||
+      navigator['vendor'] ||
+      window[_0x30d0fa(0xd2)];
+  /iPad|iPhone|iPod/[_0x30d0fa(0x10c)](_0x3a9efa) &&
+    !window[_0x30d0fa(0xaf)] &&
     (iosDevice = !![]);
 }
 getIos();
 let myGameArea = {
-  canvas: document[_0xaef252(0xa2)](_0xaef252(0x116)),
+  canvas: document[_0x2a4098(0xc3)](_0x2a4098(0xb5)),
   start: function () {
-    const _0x5f0180 = _0xaef252;
+    const _0x26d9cb = _0x2a4098;
     iosDevice
-      ? ((this[_0x5f0180(0x116)][_0x5f0180(0xdd)] = 0x2ee),
-        (this[_0x5f0180(0x116)][_0x5f0180(0xed)] = 0x19f))
-      : ((this[_0x5f0180(0x116)][_0x5f0180(0xdd)] = window[_0x5f0180(0x107)]),
-        (this[_0x5f0180(0x116)][_0x5f0180(0xed)] =
-          window['innerHeight'] <= 0x3e8 ? window[_0x5f0180(0xdb)] : 0x3e8)),
-      (this[_0x5f0180(0xd5)] = this[_0x5f0180(0x116)][_0x5f0180(0xa8)]('2d')),
-      document['body'][_0x5f0180(0xaf)](
-        this[_0x5f0180(0x116)],
-        document[_0x5f0180(0xc5)][_0x5f0180(0xde)][0x0]
+      ? ((this[_0x26d9cb(0xb5)][_0x26d9cb(0xc7)] = 0x2ee),
+        (this['canvas']['height'] = 0x19f))
+      : ((this[_0x26d9cb(0xb5)]['width'] = window['innerWidth']),
+        (this[_0x26d9cb(0xb5)][_0x26d9cb(0x103)] =
+          window[_0x26d9cb(0x122)] <= 0x3e8
+            ? window[_0x26d9cb(0x122)]
+            : 0x3e8)),
+      (this[_0x26d9cb(0xb9)] = this[_0x26d9cb(0xb5)][_0x26d9cb(0xf2)]('2d')),
+      document[_0x26d9cb(0x10f)]['insertBefore'](
+        this[_0x26d9cb(0xb5)],
+        document[_0x26d9cb(0x10f)][_0x26d9cb(0xde)][0x0]
       ),
       (this['frameNo'] = 0x0),
       (startInterval = setInterval(updateGameArea, 0x14));
   },
   clear: function () {
-    const _0x3b68e9 = _0xaef252;
-    this[_0x3b68e9(0xd5)]['clearRect'](
+    const _0x1ff403 = _0x2a4098;
+    this[_0x1ff403(0xb9)]['clearRect'](
       0x0,
       0x0,
-      this[_0x3b68e9(0x116)][_0x3b68e9(0xdd)],
-      this[_0x3b68e9(0x116)][_0x3b68e9(0xed)]
+      this[_0x1ff403(0xb5)][_0x1ff403(0xc7)],
+      this[_0x1ff403(0xb5)]['height']
     );
   },
 };
 function component(
-  _0x3a4008,
-  _0x4f185b,
-  _0x2d5590,
-  _0x538b4c,
-  _0x37eed6,
-  _0x4cf1ef
+  _0xe1c6ad,
+  _0x12141c,
+  _0x39ca1b,
+  _0x397105,
+  _0xbe84a6,
+  _0x521727
 ) {
-  const _0x3cbe09 = _0xaef252;
-  (this['type'] = _0x4cf1ef),
-    (this[_0x3cbe09(0xfd)] = 0x0),
-    (this['width'] = _0x3a4008),
-    (this['height'] = _0x4f185b),
-    (this['speedX'] = 0x0),
-    (this[_0x3cbe09(0xb8)] = 0x0),
-    (this['x'] = _0x538b4c),
-    (this['y'] = _0x37eed6),
-    (this['gravity'] = 0x0),
-    (this[_0x3cbe09(0xf8)] = 0x0),
-    (this[_0x3cbe09(0xbf)] = function () {
-      const _0x4a9983 = _0x3cbe09;
-      ctx = myGameArea[_0x4a9983(0xd5)];
-      if (this[_0x4a9983(0x112)] === _0x4a9983(0xb0))
-        (ctx['font'] = this[_0x4a9983(0xdd)] + '\x20' + this[_0x4a9983(0xed)]),
-          (ctx[_0x4a9983(0xa7)] = _0x2d5590),
-          ctx[_0x4a9983(0x118)](this[_0x4a9983(0xb0)], this['x'], this['y']);
+  const _0x2d3fd2 = _0x2a4098;
+  (this[_0x2d3fd2(0x121)] = _0x521727),
+    (this[_0x2d3fd2(0x105)] = 0x0),
+    (this[_0x2d3fd2(0xc7)] = _0xe1c6ad),
+    (this[_0x2d3fd2(0x103)] = _0x12141c),
+    (this[_0x2d3fd2(0xa4)] = 0x0),
+    (this[_0x2d3fd2(0xa5)] = 0x0),
+    (this['x'] = _0x397105),
+    (this['y'] = _0xbe84a6),
+    (this[_0x2d3fd2(0xfb)] = 0x0),
+    (this[_0x2d3fd2(0x11c)] = 0x0),
+    (this[_0x2d3fd2(0xdb)] = function () {
+      const _0x244660 = _0x2d3fd2;
+      ctx = myGameArea[_0x244660(0xb9)];
+      if (this['type'] === _0x244660(0xb7))
+        (ctx[_0x244660(0xc9)] =
+          this[_0x244660(0xc7)] + '\x20' + this[_0x244660(0x103)]),
+          (ctx[_0x244660(0x107)] = _0x39ca1b),
+          ctx[_0x244660(0xdc)](this[_0x244660(0xb7)], this['x'], this['y']);
       else {
-        if (this[_0x4a9983(0x112)] === 'img') {
-          let _0x1e1637 = new Image();
-          (_0x1e1637['src'] = _0x4a9983(0xcb)),
-            ctx[_0x4a9983(0xf4)](
-              _0x1e1637,
+        if (this[_0x244660(0x121)] === _0x244660(0xe0)) {
+          let _0x3fc5f2 = new Image();
+          (_0x3fc5f2[_0x244660(0x125)] = _0x244660(0xe5)),
+            ctx[_0x244660(0xdf)](
+              _0x3fc5f2,
               this['x'],
               this['y'],
-              _0x3a4008,
-              _0x4f185b
+              _0xe1c6ad,
+              _0x12141c
             );
         } else
-          (ctx['fillStyle'] = _0x2d5590),
-            ctx[_0x4a9983(0x10c)](),
+          (ctx[_0x244660(0x107)] = _0x39ca1b),
+            ctx[_0x244660(0xcc)](),
             roundRect(
               ctx,
               this['x'],
               this['y'],
-              this['width'],
-              this[_0x4a9983(0xed)],
+              this[_0x244660(0xc7)],
+              this[_0x244660(0x103)],
               0xa,
               !![]
             ),
-            ctx[_0x4a9983(0xb6)]();
+            ctx[_0x244660(0xea)]();
       }
     }),
     (this['newPos'] = function () {
-      const _0x12601f = _0x3cbe09;
-      (this[_0x12601f(0xf8)] += this[_0x12601f(0xbe)]),
-        (this['x'] += this[_0x12601f(0xe8)]),
-        (this['y'] += this['speedY'] + this[_0x12601f(0xf8)]),
-        this['hitBottom'](),
-        this[_0x12601f(0xd4)]();
+      const _0x2e1f20 = _0x2d3fd2;
+      (this['gravitySpeed'] += this['gravity']),
+        (this['x'] += this[_0x2e1f20(0xa4)]),
+        (this['y'] += this[_0x2e1f20(0xa5)] + this[_0x2e1f20(0x11c)]),
+        this[_0x2e1f20(0x113)](),
+        this['hitTop']();
     }),
-    (this[_0x3cbe09(0xea)] = function () {
-      const _0x1cecc6 = _0x3cbe09;
-      let _0x53b641 =
-        myGameArea['canvas'][_0x1cecc6(0xed)] - this[_0x1cecc6(0xed)];
-      this['y'] > _0x53b641 &&
-        ((this['y'] = _0x53b641), (this[_0x1cecc6(0xf8)] = 0x0));
+    (this[_0x2d3fd2(0x113)] = function () {
+      const _0x3e0869 = _0x2d3fd2;
+      let _0x959e00 =
+        myGameArea[_0x3e0869(0xb5)][_0x3e0869(0x103)] - this[_0x3e0869(0x103)];
+      this['y'] > _0x959e00 &&
+        ((this['y'] = _0x959e00), (this[_0x3e0869(0x11c)] = 0x0));
     }),
-    (this[_0x3cbe09(0xd4)] = function () {
-      const _0x4a19de = _0x3cbe09;
-      let _0x104952 =
-        myGameArea[_0x4a19de(0x116)][_0x4a19de(0xed)] - this[_0x4a19de(0xed)];
+    (this[_0x2d3fd2(0xd0)] = function () {
+      const _0x1ffdc6 = _0x2d3fd2;
+      let _0x13aac0 =
+        myGameArea[_0x1ffdc6(0xb5)][_0x1ffdc6(0x103)] - this[_0x1ffdc6(0x103)];
       this['y'] < 0x0 &&
-        ((this['y'] = _0x104952), (this[_0x4a19de(0xf8)] = 0x0));
+        ((this['y'] = _0x13aac0), (this['gravitySpeed'] = 0x0));
     });
-  const _0x2471e0 = () => {
-    const _0x10e8b5 = _0x3cbe09;
-    window[_0x10e8b5(0xba)][_0x10e8b5(0x11c)](_0x10e8b5(0xe4), punt),
-      (document[_0x10e8b5(0xa1)](_0x10e8b5(0xf6))[_0x10e8b5(0x106)][
-        _0x10e8b5(0xf2)
-      ] = _0x10e8b5(0xf5)),
+  const _0x5471d9 = () => {
+    const _0x43ac83 = _0x2d3fd2;
+    window[_0x43ac83(0xed)]['setItem'](_0x43ac83(0xa8), punt),
+      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))[_0x43ac83(0xf5)][
+        _0x43ac83(0xb6)
+      ] = _0x43ac83(0xc1)),
       clearInterval(startInterval),
-      (document[_0x10e8b5(0xa1)](_0x10e8b5(0xf6))[_0x10e8b5(0x106)][
-        _0x10e8b5(0xc2)
-      ] = _0x10e8b5(0xc7)),
-      (document[_0x10e8b5(0xa1)]('start-game')['style'][_0x10e8b5(0xbd)] =
-        _0x10e8b5(0xe3)),
-      (document['getElementById'](_0x10e8b5(0xe7))[_0x10e8b5(0x106)][
-        _0x10e8b5(0xbd)
+      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))['style'][_0x43ac83(0xc5)] =
+        _0x43ac83(0xaa)),
+      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))['style'][_0x43ac83(0xf7)] =
+        _0x43ac83(0xda)),
+      (document[_0x43ac83(0xf6)]('start-btn')[_0x43ac83(0xf5)][
+        _0x43ac83(0xf7)
       ] = 'none'),
-      (document[_0x10e8b5(0xa1)](_0x10e8b5(0x10b))[_0x10e8b5(0x106)][
-        _0x10e8b5(0xbd)
-      ] = _0x10e8b5(0xec)),
-      (document[_0x10e8b5(0xa1)]('audio-btn')['style']['display'] =
-        _0x10e8b5(0xec)),
-      (document['getElementById'](_0x10e8b5(0xb2))[_0x10e8b5(0x109)] =
-        myScore[_0x10e8b5(0xb0)]),
-      (infoBtn['style']['display'] = _0x10e8b5(0xec)),
-      (rankingBtn['style'][_0x10e8b5(0xbd)] = _0x10e8b5(0xec)),
-      (document[_0x10e8b5(0xc5)]['style'][_0x10e8b5(0xb4)] = 'hidden'),
-      (document['getElementById'](_0x10e8b5(0xcc))[_0x10e8b5(0x106)][
-        'display'
-      ] = _0x10e8b5(0x100)),
-      playAudio(_0x10e8b5(0x10f));
+      (document[_0x43ac83(0xf6)](_0x43ac83(0xd7))[_0x43ac83(0xf5)]['display'] =
+        _0x43ac83(0xe4)),
+      (document['getElementById'](_0x43ac83(0xa9))[_0x43ac83(0xf5)]['display'] =
+        _0x43ac83(0xe4)),
+      (document[_0x43ac83(0xf6)](_0x43ac83(0xbe))[_0x43ac83(0xb1)] =
+        myScore[_0x43ac83(0xb7)]),
+      (infoBtn[_0x43ac83(0xf5)]['display'] = _0x43ac83(0xe4)),
+      (rankingBtn[_0x43ac83(0xf5)]['display'] = _0x43ac83(0xe4)),
+      (document[_0x43ac83(0x10f)][_0x43ac83(0xf5)][_0x43ac83(0xc4)] =
+        _0x43ac83(0xb4)),
+      (document[_0x43ac83(0xf6)](_0x43ac83(0x112))['style'][_0x43ac83(0xf7)] =
+        _0x43ac83(0xfa)),
+      playAudio('gameOver');
   };
-  this[_0x3cbe09(0xe2)] = function (_0x457d94) {
-    const _0x1b341a = _0x3cbe09;
-    let _0x3d45ad = this['x'],
-      _0x451c71 = this['x'] + this['width'] - 0x4,
-      _0x47072d = this['y'] + 0xa,
-      _0x12f926 = this['y'] + this['height'] - 0x4,
-      _0x1d92e0 = _0x457d94['x'],
-      _0x5b1a1c = _0x457d94['x'] + _0x457d94[_0x1b341a(0xdd)],
-      _0x228771 = _0x457d94['y'],
-      _0x35137b = _0x457d94['y'] + _0x457d94['height'],
-      _0x71d8e1 = !![];
+  this[_0x2d3fd2(0xf1)] = function (_0x312b86) {
+    const _0x89fde7 = _0x2d3fd2;
+    let _0xb62441 = this['x'],
+      _0x237309 = this['x'] + this[_0x89fde7(0xc7)] - 0x4,
+      _0x2eefc4 = this['y'] + 0xa,
+      _0x21e858 = this['y'] + this['height'] - 0x4,
+      _0x4ebc54 = _0x312b86['x'],
+      _0x5dd596 = _0x312b86['x'] + _0x312b86['width'],
+      _0xf6f6a5 = _0x312b86['y'],
+      _0x43caa1 = _0x312b86['y'] + _0x312b86[_0x89fde7(0x103)],
+      _0x364a49 = !![];
     return (
-      (_0x12f926 < _0x228771 ||
-        _0x47072d > _0x35137b ||
-        _0x451c71 < _0x1d92e0 ||
-        _0x3d45ad > _0x5b1a1c) &&
-        (_0x71d8e1 = ![]),
-      _0x71d8e1
-        ? _0x2471e0()
-        : ((document['getElementById'](_0x1b341a(0xf6))[_0x1b341a(0x106)][
-            _0x1b341a(0xbd)
-          ] = _0x1b341a(0xec)),
-          (document[_0x1b341a(0xa1)](_0x1b341a(0xcc))[_0x1b341a(0x106)][
-            _0x1b341a(0xbd)
+      (_0x21e858 < _0xf6f6a5 ||
+        _0x2eefc4 > _0x43caa1 ||
+        _0x237309 < _0x4ebc54 ||
+        _0xb62441 > _0x5dd596) &&
+        (_0x364a49 = ![]),
+      _0x364a49
+        ? _0x5471d9()
+        : ((document[_0x89fde7(0xf6)](_0x89fde7(0xd4))[_0x89fde7(0xf5)][
+            _0x89fde7(0xf7)
+          ] = _0x89fde7(0xe4)),
+          (document[_0x89fde7(0xf6)](_0x89fde7(0x112))[_0x89fde7(0xf5)][
+            'display'
           ] = 'none')),
-      _0x71d8e1
+      _0x364a49
     );
   };
 }
 function roundRect(
-  _0x1fadb9,
-  _0xbe145,
-  _0x12b881,
-  _0x5c3caf,
-  _0x5e0a34,
-  _0x146851 = 0x5,
-  _0x184ed0 = ![],
-  _0x1c56d5 = !![]
+  _0x52ba8a,
+  _0x478757,
+  _0x5ab67f,
+  _0x16f202,
+  _0x4a0f38,
+  _0x6008b = 0x5,
+  _0x12802c = ![],
+  _0x261098 = !![]
 ) {
-  const _0x5e2f67 = _0xaef252;
-  typeof _0x146851 === 'number'
-    ? (_0x146851 = {
-        tl: _0x146851,
-        tr: _0x146851,
-        br: _0x146851,
-        bl: _0x146851,
-      })
-    : (_0x146851 = { ...{ tl: 0x0, tr: 0x0, br: 0x0, bl: 0x0 }, ..._0x146851 }),
-    _0x1fadb9[_0x5e2f67(0x10c)](),
-    _0x1fadb9[_0x5e2f67(0xac)](_0xbe145 + _0x146851['tl'], _0x12b881),
-    _0x1fadb9[_0x5e2f67(0x119)](
-      _0xbe145 + _0x5c3caf - _0x146851['tr'],
-      _0x12b881
+  const _0x7c448b = _0x2a4098;
+  typeof _0x6008b === _0x7c448b(0x119)
+    ? (_0x6008b = { tl: _0x6008b, tr: _0x6008b, br: _0x6008b, bl: _0x6008b })
+    : (_0x6008b = { ...{ tl: 0x0, tr: 0x0, br: 0x0, bl: 0x0 }, ..._0x6008b }),
+    _0x52ba8a[_0x7c448b(0xcc)](),
+    _0x52ba8a[_0x7c448b(0x118)](_0x478757 + _0x6008b['tl'], _0x5ab67f),
+    _0x52ba8a[_0x7c448b(0xa7)](
+      _0x478757 + _0x16f202 - _0x6008b['tr'],
+      _0x5ab67f
     ),
-    _0x1fadb9['quadraticCurveTo'](
-      _0xbe145 + _0x5c3caf,
-      _0x12b881,
-      _0xbe145 + _0x5c3caf,
-      _0x12b881 + _0x146851['tr']
+    _0x52ba8a['quadraticCurveTo'](
+      _0x478757 + _0x16f202,
+      _0x5ab67f,
+      _0x478757 + _0x16f202,
+      _0x5ab67f + _0x6008b['tr']
     ),
-    _0x1fadb9[_0x5e2f67(0x119)](
-      _0xbe145 + _0x5c3caf,
-      _0x12b881 + _0x5e0a34 - _0x146851['br']
+    _0x52ba8a[_0x7c448b(0xa7)](
+      _0x478757 + _0x16f202,
+      _0x5ab67f + _0x4a0f38 - _0x6008b['br']
     ),
-    _0x1fadb9['quadraticCurveTo'](
-      _0xbe145 + _0x5c3caf,
-      _0x12b881 + _0x5e0a34,
-      _0xbe145 + _0x5c3caf - _0x146851['br'],
-      _0x12b881 + _0x5e0a34
+    _0x52ba8a['quadraticCurveTo'](
+      _0x478757 + _0x16f202,
+      _0x5ab67f + _0x4a0f38,
+      _0x478757 + _0x16f202 - _0x6008b['br'],
+      _0x5ab67f + _0x4a0f38
     ),
-    _0x1fadb9['lineTo'](_0xbe145 + _0x146851['bl'], _0x12b881 + _0x5e0a34),
-    _0x1fadb9['quadraticCurveTo'](
-      _0xbe145,
-      _0x12b881 + _0x5e0a34,
-      _0xbe145,
-      _0x12b881 + _0x5e0a34 - _0x146851['bl']
+    _0x52ba8a[_0x7c448b(0xa7)](
+      _0x478757 + _0x6008b['bl'],
+      _0x5ab67f + _0x4a0f38
     ),
-    _0x1fadb9[_0x5e2f67(0x119)](_0xbe145, _0x12b881 + _0x146851['tl']),
-    _0x1fadb9[_0x5e2f67(0xb9)](
-      _0xbe145,
-      _0x12b881,
-      _0xbe145 + _0x146851['tl'],
-      _0x12b881
+    _0x52ba8a['quadraticCurveTo'](
+      _0x478757,
+      _0x5ab67f + _0x4a0f38,
+      _0x478757,
+      _0x5ab67f + _0x4a0f38 - _0x6008b['bl']
     ),
-    _0x1fadb9[_0x5e2f67(0xbb)](),
-    _0x184ed0 && _0x1fadb9[_0x5e2f67(0xb6)](),
-    _0x1c56d5 && _0x1fadb9['stroke']();
+    _0x52ba8a[_0x7c448b(0xa7)](_0x478757, _0x5ab67f + _0x6008b['tl']),
+    _0x52ba8a[_0x7c448b(0x124)](
+      _0x478757,
+      _0x5ab67f,
+      _0x478757 + _0x6008b['tl'],
+      _0x5ab67f
+    ),
+    _0x52ba8a[_0x7c448b(0xd6)](),
+    _0x12802c && _0x52ba8a['fill'](),
+    _0x261098 && _0x52ba8a['stroke']();
 }
-const randomIntForIncreaseSpeed = Math[_0xaef252(0xa0)](
-    Math[_0xaef252(0xc8)]() * (0xfd2 - 0x898 + 0x1) + 0x898
+const randomIntForIncreaseSpeed = Math[_0x2a4098(0xbf)](
+    Math[_0x2a4098(0xcd)]() * (0xfd2 - 0x898 + 0x1) + 0x898
   ),
-  randomIntForChangeAsshole = Math[_0xaef252(0xa0)](
-    Math[_0xaef252(0xc8)]() * (0x1b58 - 0x1770 + 0x1) + 0x1770
+  randomIntForChangeAsshole = Math[_0x2a4098(0xbf)](
+    Math[_0x2a4098(0xcd)]() * (0x1b58 - 0x1770 + 0x1) + 0x1770
   );
 function updateGameArea() {
-  const _0x5e5afa = _0xaef252;
-  let _0x68ca13,
-    _0x1186b2,
-    _0x4d369d,
-    _0x207fc4,
-    _0xcea0b7,
-    _0xdc00bc,
-    _0x148993,
-    _0x10fdb5 = this[_0x5e5afa(0xe9)] < randomIntForIncreaseSpeed ? -1.8 : -3.8,
-    _0x387d67 = _0x10fdb5 === -1.8 ? 0x96 : 0x5f,
-    _0xd3d2e9 = 0x3c,
-    _0x44921e = _0x387d67 === 0x96 ? 0x78 : 0x55;
-  for (i = 0x0; i < myObstacles[_0x5e5afa(0xad)]; i += 0x1) {
-    if (gameCharacter[_0x5e5afa(0xe2)](myObstacles[i])) return;
+  const _0x5b57d4 = _0x2a4098;
+  let _0x58d0cf,
+    _0x121fb2,
+    _0xf8108a,
+    _0x370079,
+    _0x1961de,
+    _0x804c39,
+    _0x395bc0,
+    _0x66618d = this[_0x5b57d4(0xa6)] < randomIntForIncreaseSpeed ? -1.8 : -3.8,
+    _0x1af2a2 = _0x66618d === -1.8 ? 0x96 : 0x5f,
+    _0x346228 = 0x3c,
+    _0x580d8c = _0x1af2a2 === 0x96 ? 0x78 : 0x55;
+  for (i = 0x0; i < myObstacles['length']; i += 0x1) {
+    if (gameCharacter['crashWith'](myObstacles[i])) return;
   }
-  myGameArea['clear'](), (myGameArea[_0x5e5afa(0xb5)] += 0x1);
-  if (myGameArea[_0x5e5afa(0xb5)] == 0x1 || everyinterval(_0x387d67)) {
-    (_0x68ca13 = myGameArea[_0x5e5afa(0x116)]['width']),
-      (_0x207fc4 = 0x14),
-      (_0xcea0b7 = 0x10e),
-      (_0x1186b2 = Math[_0x5e5afa(0xa0)](
-        Math['random']() * (_0xcea0b7 - _0x207fc4 + 0x1) + _0x207fc4
+  myGameArea[_0x5b57d4(0xab)](), (myGameArea[_0x5b57d4(0x11b)] += 0x1);
+  if (myGameArea['frameNo'] == 0x1 || everyinterval(_0x1af2a2)) {
+    (_0x58d0cf = myGameArea[_0x5b57d4(0xb5)]['width']),
+      (_0x370079 = 0x14),
+      (_0x1961de = 0x10e),
+      (_0x121fb2 = Math[_0x5b57d4(0xbf)](
+        Math[_0x5b57d4(0xcd)]() * (_0x1961de - _0x370079 + 0x1) + _0x370079
       )),
-      (_0xdc00bc = _0xd3d2e9),
-      (_0x148993 = _0x44921e);
-    const _0xaa90 = this[_0x5e5afa(0xe9)] > randomIntForChangeAsshole,
-      _0x2539fe = _0xaa90 ? 0x4b : 0x2d,
-      _0x10ac02 = _0xaa90 ? _0x5e5afa(0xd7) : _0x5e5afa(0xb7),
-      _0x10e8b6 = _0xaa90 ? _0x5e5afa(0xaa) : _0x5e5afa(0xe1);
-    this[_0x5e5afa(0xe9)] > randomIntForIncreaseSpeed &&
-      this[_0x5e5afa(0xe9)] < randomIntForIncreaseSpeed + 0x96 &&
-      playAudio(_0x5e5afa(0xa9)),
-      this[_0x5e5afa(0xe9)] > randomIntForChangeAsshole &&
-        this[_0x5e5afa(0xe9)] < randomIntForChangeAsshole + 0x96 &&
-        playAudio(_0x5e5afa(0xef)),
-      (_0x4d369d = Math[_0x5e5afa(0xa0)](
-        Math[_0x5e5afa(0xc8)]() * (_0x148993 - _0xdc00bc + 0x1) + _0xdc00bc
+      (_0x804c39 = _0x346228),
+      (_0x395bc0 = _0x580d8c);
+    const _0x100569 = this['myScoreNumber'] > randomIntForChangeAsshole,
+      _0x24387c = _0x100569 ? 0x4b : 0x2d,
+      _0x445ef0 = _0x100569 ? _0x5b57d4(0xce) : '#964E00',
+      _0xf16386 = _0x100569 ? '#451b00' : _0x5b57d4(0x11f);
+    this[_0x5b57d4(0xa6)] > randomIntForIncreaseSpeed &&
+      this[_0x5b57d4(0xa6)] < randomIntForIncreaseSpeed + 0x96 &&
+      playAudio('scoreGoesUpLot'),
+      this[_0x5b57d4(0xa6)] > randomIntForChangeAsshole &&
+        this['myScoreNumber'] < randomIntForChangeAsshole + 0x96 &&
+        playAudio(_0x5b57d4(0xec)),
+      (_0xf8108a = Math[_0x5b57d4(0xbf)](
+        Math['random']() * (_0x395bc0 - _0x804c39 + 0x1) + _0x804c39
       )),
-      myObstacles[_0x5e5afa(0x114)](
-        new component(_0x2539fe, _0x1186b2, _0x10ac02, _0x68ca13, 0x0)
+      myObstacles['push'](
+        new component(_0x24387c, _0x121fb2, _0x445ef0, _0x58d0cf, 0x0)
       ),
-      myObstacles[_0x5e5afa(0x114)](
+      myObstacles['push'](
         new component(
-          _0x2539fe,
-          _0x68ca13 - _0x1186b2 - _0x4d369d,
-          _0x10e8b6,
-          _0x68ca13,
-          _0x1186b2 + _0x4d369d
+          _0x24387c,
+          _0x58d0cf - _0x121fb2 - _0xf8108a,
+          _0xf16386,
+          _0x58d0cf,
+          _0x121fb2 + _0xf8108a
         )
       );
   }
-  for (i = 0x0; i < myObstacles[_0x5e5afa(0xad)]; i += 0x1) {
-    (myObstacles[i]['x'] += _0x10fdb5), myObstacles[i][_0x5e5afa(0xbf)]();
+  for (i = 0x0; i < myObstacles[_0x5b57d4(0x123)]; i += 0x1) {
+    (myObstacles[i]['x'] += _0x66618d), myObstacles[i][_0x5b57d4(0xdb)]();
   }
-  this['updateScore'](),
-    myScore[_0x5e5afa(0xbf)](),
-    gameCharacter[_0x5e5afa(0xa4)](),
-    gameCharacter['update']();
+  this[_0x5b57d4(0xd9)](),
+    myScore[_0x5b57d4(0xdb)](),
+    gameCharacter[_0x5b57d4(0xd3)](),
+    gameCharacter[_0x5b57d4(0xdb)]();
 }
 function updateScore() {
-  const _0x135e21 = _0xaef252,
-    _0xdc3e9 = myGameArea[_0x135e21(0xb5)] - 0x190,
-    _0x3dd8e3 = Math[_0x135e21(0x9e)](_0xdc3e9);
-  (this[_0x135e21(0xe9)] = _0x3dd8e3),
-    (punt = _0x3dd8e3),
-    (myScore[_0x135e21(0xb0)] =
-      _0x135e21(0x10d) + (_0x3dd8e3 < 0x0 ? 0x0 : _0x3dd8e3));
+  const _0x3b07d0 = _0x2a4098,
+    _0x28dc8a = myGameArea[_0x3b07d0(0x11b)] - 0x190,
+    _0x2534d7 = Math[_0x3b07d0(0xad)](_0x28dc8a);
+  (this['myScoreNumber'] = _0x2534d7),
+    (punt = _0x2534d7),
+    (myScore[_0x3b07d0(0xb7)] =
+      _0x3b07d0(0xfc) + (_0x2534d7 < 0x0 ? 0x0 : _0x2534d7));
 }
-function playAudio(_0x5115f7) {
-  const _0x2e1809 = _0xaef252;
+function playAudio(_0x5c173e) {
+  const _0x2358bb = _0x2a4098;
   if (audioIconPlay)
-    switch (_0x5115f7) {
+    switch (_0x5c173e) {
       case 'gameOver':
-        audio[_0x2e1809(0xc6)](),
-          (audio[_0x2e1809(0xa5)] = 0x0),
-          (audio[_0x2e1809(0xab)] = _0x2e1809(0xd2)),
-          audio[_0x2e1809(0xe5)]();
-        break;
-      case _0x2e1809(0xa9):
-        let _0x5448d6 = new Audio();
-        (_0x5448d6[_0x2e1809(0xab)] = 'sounds/oh-my-god.mp3'),
-          _0x5448d6['play'](),
-          (audio[_0x2e1809(0xab)] = _0x2e1809(0x104)),
+        (audio['loop'] = ![]),
+          audio[_0x2358bb(0xf9)](),
+          (audio[_0x2358bb(0x10b)] = 0x0),
+          (audio[_0x2358bb(0x125)] = _0x2358bb(0xba)),
           audio['play']();
         break;
-      case 'scoreCrazyLevels':
-        let _0x418062 = new Audio();
-        (_0x418062[_0x2e1809(0xab)] = _0x2e1809(0xdf)),
-          _0x418062['play'](),
-          (audio[_0x2e1809(0xab)] = 'sounds/BYOB.mp3'),
-          audio[_0x2e1809(0xe5)]();
+      case _0x2358bb(0xeb):
+        let _0x13b381 = new Audio();
+        (_0x13b381[_0x2358bb(0x125)] = _0x2358bb(0xca)),
+          _0x13b381[_0x2358bb(0x10a)](),
+          (audio[_0x2358bb(0x125)] = _0x2358bb(0xfd)),
+          audio[_0x2358bb(0x10a)]();
+        break;
+      case _0x2358bb(0xec):
+        let _0x1fdc6e = new Audio();
+        (_0x1fdc6e[_0x2358bb(0x125)] = _0x2358bb(0xb0)),
+          _0x1fdc6e[_0x2358bb(0x10a)](),
+          (audio[_0x2358bb(0x125)] = _0x2358bb(0x115)),
+          audio[_0x2358bb(0x10a)]();
         break;
       default:
         break;
     }
 }
-function everyinterval(_0x5b9fb2) {
-  const _0x267506 = _0xaef252;
-  if ((myGameArea[_0x267506(0xb5)] / _0x5b9fb2) % 0x1 == 0x0) return !![];
+function everyinterval(_0x418f84) {
+  if ((myGameArea['frameNo'] / _0x418f84) % 0x1 == 0x0) return !![];
   return ![];
 }
-function accelerate(_0x5d5c39) {
-  return (gameCharacter['gravity'] = _0x5d5c39);
+function accelerate(_0x585818) {
+  const _0x47335f = _0x2a4098;
+  return (gameCharacter[_0x47335f(0xfb)] = _0x585818);
 }
-const flyPoop = document['getElementById'](_0xaef252(0x9f));
-flyPoop[_0xaef252(0xf7)](
-  _0xaef252(0xda),
-  function (_0x55e267) {
-    _0x55e267['preventDefault'](), soundFart();
-  },
-  ![]
-);
 function soundFart() {
-  const _0x2a5842 = _0xaef252;
-  let _0x5cf7ee = new Audio();
-  (_0x5cf7ee[_0x2a5842(0xab)] = 'sounds/fart.mp3'),
-    audioIconPlay && _0x5cf7ee[_0x2a5842(0x11d)]
-      ? _0x5cf7ee[_0x2a5842(0xe5)]()
-      : (_0x5cf7ee[_0x2a5842(0xc6)](), (_0x5cf7ee[_0x2a5842(0xa5)] = 0x0));
+  const _0x44393b = _0x2a4098;
+  let _0x1cd95a = new Audio();
+  (_0x1cd95a[_0x44393b(0x125)] = _0x44393b(0xb3)),
+    audioIconPlay && _0x1cd95a[_0x44393b(0x10a)]();
+}
+function _0xd852() {
+  const _0x489544 = [
+    'Enter\x20your\x20nickname',
+    'beginPath',
+    'random',
+    '#744009',
+    'writeText',
+    'hitTop',
+    'text/plain',
+    'opera',
+    'newPos',
+    'start-game',
+    'img/sound-on.webp',
+    'closePath',
+    'label-nickname',
+    'boxShadow',
+    'updateScore',
+    'flex',
+    'update',
+    'fillText',
+    'target',
+    'childNodes',
+    'drawImage',
+    'img',
+    'onclick',
+    'getElementsByClassName',
+    'start',
+    'none',
+    'img/flying_poop.webp',
+    '0px\x200px\x2035px\x206px\x20#000000',
+    'saveNickname',
+    '8435979cksNNK',
+    'touchstart',
+    'fill',
+    'scoreGoesUpLot',
+    'scoreCrazyLevels',
+    'localStorage',
+    '5351404RDBxRU',
+    'https://play.google.com/store/apps/details?id=io.kodular.caputoluca88.Shopping_List',
+    '2725624fZOvnn',
+    'crashWith',
+    'getContext',
+    '3332232DnjNAn',
+    'close',
+    'style',
+    'getElementById',
+    'display',
+    'copy',
+    'pause',
+    'block',
+    'gravity',
+    'SCORE:\x20',
+    'sounds/MasterOfPuppets.mp3',
+    'addEventListener',
+    '#202020',
+    'ranking-modal',
+    'userAgent',
+    'clipboardData',
+    'height',
+    '6YbvvPA',
+    'score',
+    '61282xrVHLn',
+    'fillStyle',
+    'getItem',
+    'nickname',
+    'play',
+    'currentTime',
+    'test',
+    'img/sound-off.webp',
+    'autoplay',
+    'body',
+    'link-copied',
+    'setData',
+    'retry-btn',
+    'hitBottom',
+    'placeholder',
+    'sounds/BYOB.mp3',
+    'loop',
+    '30px',
+    'moveTo',
+    'number',
+    'start-btn',
+    'frameNo',
+    'gravitySpeed',
+    'info-btn',
+    '3pMFTga',
+    '#6A2800',
+    '674616lVdUGm',
+    'type',
+    'innerHeight',
+    'length',
+    'quadraticCurveTo',
+    'src',
+    'speedX',
+    'speedY',
+    'myScoreNumber',
+    'lineTo',
+    'punt',
+    'audio-btn',
+    'url(\x27img/game-over.webp\x27)',
+    'clear',
+    'no-nickname-modal',
+    'ceil',
+    'audio-icon',
+    'MSStream',
+    'sounds/oh-shit.mp3',
+    'innerText',
+    'click',
+    'sounds/fart.mp3',
+    'hidden',
+    'canvas',
+    'backgroundColor',
+    'text',
+    '30xNbyLa',
+    'context',
+    'sounds/toilet.mp3',
+    'preventDefault',
+    '\x27Lucida\x20Console\x27,\x20\x27Courier\x20New\x27,\x20monospace',
+    '63hvjoPQ',
+    'score-text',
+    'floor',
+    'volume',
+    '#e26b6d',
+    '8428305hBOXfH',
+    'createElement',
+    'overflow',
+    'backgroundImage',
+    'trim',
+    'width',
+    'value',
+    'font',
+    'sounds/oh-my-god.mp3',
+  ];
+  _0xd852 = function () {
+    return _0x489544;
+  };
+  return _0xd852();
 }
 function shareLink() {
-  const _0x2f40da = _0xaef252,
-    _0x27d35a = _0x2f40da(0x117),
-    _0x580b28 = document['getElementById'](_0x2f40da(0xc0));
-  navigator[_0x2f40da(0xfe)][_0x2f40da(0xd3)](_0x27d35a),
-    document[_0x2f40da(0xf7)]('copy', function (_0xd1c8d3) {
-      const _0x38a8ce = _0x2f40da;
-      _0xd1c8d3[_0x38a8ce(0xee)]['setData'](_0x38a8ce(0x11a), _0x27d35a),
-        _0xd1c8d3[_0x38a8ce(0x11e)]();
+  const _0x5c0d42 = _0x2a4098,
+    _0x4c5117 = _0x5c0d42(0xef),
+    _0x55675d = document[_0x5c0d42(0xf6)](_0x5c0d42(0x110));
+  navigator['clipboard'][_0x5c0d42(0xcf)](_0x4c5117),
+    document[_0x5c0d42(0xfe)](_0x5c0d42(0xf8), function (_0x495ce4) {
+      const _0x51f3d7 = _0x5c0d42;
+      _0x495ce4[_0x51f3d7(0x102)][_0x51f3d7(0x111)](_0x51f3d7(0xd1), _0x4c5117),
+        _0x495ce4[_0x51f3d7(0xbb)]();
     }),
-    document[_0x2f40da(0xfb)]('copy'),
-    (_0x580b28[_0x2f40da(0x106)][_0x2f40da(0xbd)] = _0x2f40da(0x100)),
+    document['execCommand'](_0x5c0d42(0xf8)),
+    (_0x55675d[_0x5c0d42(0xf5)]['display'] = 'block'),
     setTimeout(
-      () => (_0x580b28[_0x2f40da(0x106)]['display'] = _0x2f40da(0xec)),
+      () => (_0x55675d['style'][_0x5c0d42(0xf7)] = _0x5c0d42(0xe4)),
       0x1194
-    );
+    ),
+    soundFart();
 }
-function _0x19f6(_0x26ef91, _0x104ba3) {
-  const _0x599ed4 = _0x599e();
-  return (
-    (_0x19f6 = function (_0x19f6e4, _0x80b2b7) {
-      _0x19f6e4 = _0x19f6e4 - 0x9e;
-      let _0x3516f5 = _0x599ed4[_0x19f6e4];
-      return _0x3516f5;
-    }),
-    _0x19f6(_0x26ef91, _0x104ba3)
-  );
-}
-flyPoop[_0xaef252(0xf7)](
-  _0xaef252(0xcd),
-  function (_0x1a1e1c) {
-    const _0x5d8729 = _0xaef252;
-    _0x1a1e1c[_0x5d8729(0x11e)](),
+const flyPoop = document[_0x2a4098(0xf6)]('fly-poop');
+flyPoop[_0x2a4098(0xfe)](
+  _0x2a4098(0xe9),
+  function (_0x268f48) {
+    const _0x1f9f23 = _0x2a4098;
+    _0x268f48['preventDefault'](),
       accelerate(-0.4),
-      soundFart(),
-      (flyPoop[_0x5d8729(0x106)]['boxShadow'] = _0x5d8729(0xa6));
+      (flyPoop['style'][_0x1f9f23(0xd8)] = _0x1f9f23(0xe6));
   },
   ![]
 ),
-  flyPoop[_0xaef252(0xf7)](
-    _0xaef252(0xa3),
-    function (_0x203104) {
-      const _0x26a0dd = _0xaef252;
-      _0x203104['preventDefault'](),
+  flyPoop[_0x2a4098(0xfe)](
+    'touchend',
+    function (_0xb23b95) {
+      const _0x1e5555 = _0x2a4098;
+      _0xb23b95['preventDefault'](),
         accelerate(0.15),
-        (flyPoop[_0x26a0dd(0x106)][_0x26a0dd(0xf1)] = 'none');
+        (flyPoop['style'][_0x1e5555(0xd8)] = 'none');
     },
     ![]
   ),
-  (infoBtn[_0xaef252(0x115)] = function () {
-    const _0x4314de = _0xaef252;
-    infoModal[_0x4314de(0x106)]['display'] = _0x4314de(0x100);
+  [infoBtn, infoClose, rankingBtn, rankingClose, startBtn]['forEach'](
+    (_0xf9bd9b) => {
+      const _0x348818 = _0x2a4098;
+      _0xf9bd9b[_0x348818(0xfe)](
+        _0x348818(0xb2),
+        (_0x1ca395) => {
+          const _0x3ed7dd = _0x348818;
+          _0x1ca395[_0x3ed7dd(0xbb)](), soundFart();
+        },
+        ![]
+      );
+    }
+  ),
+  (infoBtn[_0x2a4098(0xe1)] = function () {
+    const _0x2d5865 = _0x2a4098;
+    soundFart(), (infoModal[_0x2d5865(0xf5)][_0x2d5865(0xf7)] = 'block');
   }),
-  (infoClose[_0xaef252(0x115)] = function () {
-    const _0x10102e = _0xaef252;
-    infoModal[_0x10102e(0x106)][_0x10102e(0xbd)] = 'none';
+  (infoClose[_0x2a4098(0xe1)] = function () {
+    const _0x485c9f = _0x2a4098;
+    soundFart(), (infoModal[_0x485c9f(0xf5)][_0x485c9f(0xf7)] = 'none');
   }),
-  (rankingBtn['onclick'] = function () {
-    const _0x3ef74d = _0xaef252;
-    rankingModal['style']['display'] = _0x3ef74d(0x100);
+  (rankingBtn[_0x2a4098(0xe1)] = function () {
+    const _0x4b866f = _0x2a4098;
+    soundFart(), (rankingModal[_0x4b866f(0xf5)][_0x4b866f(0xf7)] = 'block');
   }),
-  (rankingClose[_0xaef252(0x115)] = function () {
-    const _0x336d0f = _0xaef252;
-    rankingModal[_0x336d0f(0x106)][_0x336d0f(0xbd)] = _0x336d0f(0xec);
+  (rankingClose['onclick'] = function () {
+    const _0x2fc819 = _0x2a4098;
+    soundFart(),
+      (rankingModal[_0x2fc819(0xf5)][_0x2fc819(0xf7)] = _0x2fc819(0xe4));
   }),
-  (insertNicknameClose[_0xaef252(0x115)] = function () {
-    const _0x48b495 = _0xaef252;
-    insertNicknameModal[_0x48b495(0x106)][_0x48b495(0xbd)] = _0x48b495(0xec);
+  (insertNicknameClose[_0x2a4098(0xe1)] = function () {
+    const _0x55bc62 = _0x2a4098;
+    insertNicknameModal[_0x55bc62(0xf5)][_0x55bc62(0xf7)] = _0x55bc62(0xe4);
   }),
-  (window['onclick'] = function (_0x195cac) {
-    const _0x2c2303 = _0xaef252;
-    _0x195cac[_0x2c2303(0xc1)] == infoModal &&
-      (infoModal[_0x2c2303(0x106)][_0x2c2303(0xbd)] = 'none'),
-      _0x195cac[_0x2c2303(0xc1)] == rankingModal &&
-        (rankingModal['style'][_0x2c2303(0xbd)] = _0x2c2303(0xec)),
-      _0x195cac[_0x2c2303(0xc1)] == insertNicknameModal &&
-        (insertNicknameModal[_0x2c2303(0x106)][_0x2c2303(0xbd)] = 'none');
+  (window[_0x2a4098(0xe1)] = function (_0x463edb) {
+    const _0x4ece0b = _0x2a4098;
+    _0x463edb['target'] == infoModal &&
+      (infoModal[_0x4ece0b(0xf5)][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4)),
+      _0x463edb['target'] == rankingModal &&
+        (rankingModal['style'][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4)),
+      _0x463edb[_0x4ece0b(0xdd)] == insertNicknameModal &&
+        (insertNicknameModal['style'][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4));
   });
 function toggleAudio() {
-  const _0x3922a4 = _0xaef252,
-    _0x280fad = document['getElementById'](_0x3922a4(0xeb));
-  (audio[_0x3922a4(0xd9)] = !![]),
-    (audio[_0x3922a4(0x113)] = !![]),
+  const _0x2d5d14 = _0x2a4098,
+    _0x261006 = document['getElementById'](_0x2d5d14(0xae));
+  (audio[_0x2d5d14(0x10e)] = !![]),
+    (audio[_0x2d5d14(0x116)] = !![]),
     (audioIconPlay = !audioIconPlay),
     audioIconPlay
-      ? ((_0x280fad['src'] = _0x3922a4(0xe6)),
-        (audio[_0x3922a4(0xae)] = 0.65),
-        audio[_0x3922a4(0xe5)]())
-      : ((_0x280fad['src'] = _0x3922a4(0xce)), audio['pause']());
+      ? ((_0x261006['src'] = _0x2d5d14(0xd5)),
+        (audio[_0x2d5d14(0xc0)] = 0.65),
+        audio[_0x2d5d14(0x10a)]())
+      : ((_0x261006['src'] = _0x2d5d14(0x10d)), audio[_0x2d5d14(0xf9)]());
 }
