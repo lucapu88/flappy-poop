@@ -72,6 +72,14 @@ button:hover {
   -o-box-shadow: 0px 0px 23px -2px #000000;
   box-shadow: 0px 0px 23px -2px #000000;
 }
+#start-btn {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
 .label-nickname {
   color: #ffff;
   font-weight: bold;

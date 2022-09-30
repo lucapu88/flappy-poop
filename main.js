@@ -1,673 +1,793 @@
-const _0x2a4098 = _0x41ba;
-(function (_0x575a95, _0xfff9ad) {
-  const _0x1fb965 = _0x41ba,
-    _0x2d04b4 = _0x575a95();
+const R = Z;
+(function (r, E) {
+  const m = Z,
+    D = r();
   while (!![]) {
     try {
-      const _0xe3215a =
-        (parseInt(_0x1fb965(0x104)) / 0x1) *
-          (parseInt(_0x1fb965(0x106)) / 0x2) +
-        (-parseInt(_0x1fb965(0x11e)) / 0x3) *
-          (-parseInt(_0x1fb965(0xee)) / 0x4) +
-        -parseInt(_0x1fb965(0xc2)) / 0x5 +
-        (-parseInt(_0x1fb965(0x120)) / 0x6) *
-          (parseInt(_0x1fb965(0xbd)) / 0x7) +
-        parseInt(_0x1fb965(0xf3)) / 0x8 +
-        parseInt(_0x1fb965(0xe8)) / 0x9 +
-        (parseInt(_0x1fb965(0xb8)) / 0xa) * (parseInt(_0x1fb965(0xf0)) / 0xb);
-      if (_0xe3215a === _0xfff9ad) break;
-      else _0x2d04b4['push'](_0x2d04b4['shift']());
-    } catch (_0x5f0608) {
-      _0x2d04b4['push'](_0x2d04b4['shift']());
+      const Q =
+        parseInt(m(0x1c8)) / 0x1 +
+        -parseInt(m(0x1fe)) / 0x2 +
+        parseInt(m(0x170)) / 0x3 +
+        (parseInt(m(0x1dc)) / 0x4) * (parseInt(m(0x162)) / 0x5) +
+        (parseInt(m(0x171)) / 0x6) * (-parseInt(m(0x1af)) / 0x7) +
+        -parseInt(m(0x1e9)) / 0x8 +
+        (-parseInt(m(0x18b)) / 0x9) * (-parseInt(m(0x1be)) / 0xa);
+      if (Q === E) break;
+      else D['push'](D['shift']());
+    } catch (o) {
+      D['push'](D['shift']());
     }
   }
-})(_0xd852, 0xe0eec);
+})(q, 0x9101c);
+function q() {
+  const r7 = [
+    'ebp\x27)',
+    'preve',
+    'boxSh',
+    'cknam',
+    'frame',
+    'tyle',
+    'All\x20r',
+    'urveT',
+    'touch',
+    'shit.',
+    'SCORE',
+    '649558QwJHNi',
+    'llYea',
+    'pause',
+    '\x20nick',
+    'saveN',
+    'rando',
+    'ls?id',
+    '=io.k',
+    '-icon',
+    'oop',
+    '#6A28',
+    'quadr',
+    'fillS',
+    'low',
+    'ver.w',
+    'img/s',
+    'userA',
+    'gameO',
+    'getIt',
+    'displ',
+    'ved.',
+    'Crazy',
+    'pLot',
+    'getCo',
+    'score',
+    'odula',
+    'led',
+    'ing',
+    'Stora',
+    'terOf',
+    'value',
+    'ent',
+    'oncli',
+    'clipb',
+    'copie',
+    'btn',
+    '(((.+',
+    'Enter',
+    'updat',
+    'utolu',
+    'stene',
+    '#964E',
+    'start',
+    'lying',
+    'loop',
+    'Width',
+    'ttom',
+    'ata',
+    'nospa',
+    'ault',
+    'r.cap',
+    'font',
+    'Text',
+    '0000',
+    'ight\x20',
+    's/toi',
+    'none',
+    'eElem',
+    'lengt',
+    'audio',
+    'moveT',
+    'close',
+    'img',
+    '1591010LTlkQl',
+    'e-mod',
+    '-game',
+    'tBefo',
+    'hitTo',
+    'sByCl',
+    'trim',
+    'style',
+    'ext',
+    'newPo',
+    'setIt',
+    'Color',
+    '\x20Capu',
+    'eScor',
+    '3557553oRVMVN',
+    '27402KsviIg',
+    'lay',
+    'r\x20New',
+    'da\x20Co',
+    '#2020',
+    'width',
+    'img/f',
+    'ickna',
+    'my-go',
+    'test',
+    'drawI',
+    'ourie',
+    'gravi',
+    'ById',
+    'place',
+    '\x20your',
+    'block',
+    'local',
+    'begin',
+    '_poop',
+    'Puppe',
+    'opera',
+    'aticC',
+    'Path',
+    'reser',
+    'ver',
+    '1017sdVSqO',
+    'getEl',
+    'px\x2035',
+    'overf',
+    'nickn',
+    'mage',
+    'GoesU',
+    'volum',
+    'setDa',
+    'holde',
+    'plain',
+    'ing_L',
+    'fillT',
+    'text',
+    'targe',
+    'sound',
+    'lineT',
+    'end',
+    'heigh',
+    '-btn',
+    'play',
+    ')+)+)',
+    'Rect',
+    'disab',
+    'ay.go',
+    'https',
+    'link-',
+    'info-',
+    'searc',
+    '-text',
+    'retry',
+    'nsole',
+    's/oh-',
+    'oardD',
+    '30px',
+    'copy',
+    '1106ecaSjl',
+    'px\x206p',
+    'punt',
+    'off.w',
+    'With',
+    'creat',
+    'const',
+    'child',
+    'x\x20#00',
+    'curre',
+    'eam',
+    '\x27Luci',
+    'adow',
+    'copyr',
+    's/far',
+    '26120mkYjBM',
+    'ca\x20-\x20',
+    'fill',
+    'Image',
+    'addEv',
+    'backg',
+    'canva',
+    'tore/',
+    'url(\x27',
+    'ement',
+    '2441tQCKwa',
+    'crash',
+    'reNum',
+    'ber',
+    'inser',
+    'ame',
+    'inner',
+    'body',
+    'ntDef',
+    'conte',
+    'apply',
+    's/Mas',
+    'src',
+    'ranki',
+    'mySco',
+    'tySpe',
+    'B.mp3',
+    'ntext',
+    't.mp3',
+    'detai',
+    '4MAQdrL',
+    'ng-bt',
+    'name',
+    'numbe',
+    'Heigh',
+    'dal',
+    'forEa',
+    'entLi',
+    'type',
+    'Level',
+    'com/s',
+    'ebp',
+    'hidde',
+    '1290696VygsLy',
+    'ound-',
+    'clear',
+    'floor',
+    's/BYO',
+    'speed',
+    'assNa',
+    '.webp',
+    'Shopp',
+    'hitBo',
+  ];
+  q = function () {
+    return r7;
+  };
+  return q();
+}
 let gameCharacter,
   myObstacles = [],
   myScore,
   myScoreNumber,
-  infoModal = document[_0x2a4098(0xf6)]('info-modal'),
-  rankingModal = document[_0x2a4098(0xf6)](_0x2a4098(0x100)),
-  insertNicknameModal = document[_0x2a4098(0xf6)](_0x2a4098(0xac)),
-  infoBtn = document[_0x2a4098(0xf6)](_0x2a4098(0x11d)),
-  rankingBtn = document[_0x2a4098(0xf6)]('ranking-btn'),
-  infoClose = document['getElementsByClassName']('close')[0x0],
-  rankingClose = document[_0x2a4098(0xe2)](_0x2a4098(0xf4))[0x1],
-  insertNicknameClose = document[_0x2a4098(0xe2)](_0x2a4098(0xf4))[0x2],
-  startBtn = document[_0x2a4098(0xf6)](_0x2a4098(0x11a)),
+  infoModal = document[R(0x18c) + 'ement' + 'ById'](R(0x1a6) + 'modal'),
+  rankingModal = document[R(0x18c) + R(0x1c7) + R(0x17e)](
+    R(0x1d5) + 'ng-mo' + R(0x1e1)
+  ),
+  insertNicknameModal = document[R(0x18c) + R(0x1c7) + 'ById'](
+    'no-ni' + R(0x1f6) + R(0x163) + 'al'
+  ),
+  infoBtn = document[R(0x18c) + R(0x1c7) + R(0x17e)](R(0x1a6) + R(0x146)),
+  rankingBtn = document[R(0x18c) + R(0x1c7) + 'ById'](
+    R(0x1d5) + R(0x1dd) + 'n'
+  ),
+  infoClose =
+    document[R(0x18c) + R(0x1c7) + R(0x167) + R(0x1ef) + 'me']('close')[0x0],
+  rankingClose = document[R(0x18c) + R(0x1c7) + R(0x167) + 'assNa' + 'me'](
+    R(0x160)
+  )[0x1],
+  insertNicknameClose =
+    document[R(0x18c) + R(0x1c7) + 'sByCl' + 'assNa' + 'me']('close')[0x2],
+  startBtn = document[R(0x18c) + R(0x1c7) + R(0x17e)](R(0x14d) + R(0x19e)),
   audioIconPlay = ![],
   noNickname = ![],
   iosDevice = ![],
   punt;
 function startGame() {
-  const _0x22d64d = _0x2a4098;
-  this[_0x22d64d(0xe7)](
-    document[_0x22d64d(0xf6)](_0x22d64d(0x109))[_0x22d64d(0xc8)]
+  const v = R;
+  this[v(0x202) + v(0x178) + 'me'](
+    document[v(0x18c) + 'ement' + v(0x17e)](v(0x18f) + v(0x1cd))['value']
   ),
     soundFart(),
     noNickname &&
-      ((gameCharacter = new component(0x37, 0x28, '', 0xa, 0x78, 'img')),
-      (gameCharacter['gravity'] = 0.05),
+      ((gameCharacter = new component(0x37, 0x28, '', 0xa, 0x78, v(0x161))),
+      (gameCharacter['gravi' + 'ty'] = 0.05),
       (myScore = new component(
-        _0x22d64d(0x117),
-        _0x22d64d(0xbc),
-        _0x22d64d(0xff),
+        v(0x1ad),
+        v(0x1ba) +
+          v(0x174) +
+          v(0x1aa) +
+          '\x27,\x20\x27C' +
+          v(0x17c) +
+          v(0x173) +
+          '\x27,\x20mo' +
+          v(0x153) +
+          'ce',
+        v(0x175) + '20',
         0x14,
         0x1e,
-        'text'
+        v(0x198)
       )),
-      (document[_0x22d64d(0xf6)](_0x22d64d(0xd4))[_0x22d64d(0xf5)][
-        _0x22d64d(0xf7)
-      ] = _0x22d64d(0xe4)),
-      gameCharacter && myGameArea[_0x22d64d(0xe3)]());
+      (document['getEl' + v(0x1c7) + v(0x17e)](v(0x14d) + v(0x164))[v(0x169)][
+        'displ' + 'ay'
+      ] = v(0x15b)),
+      gameCharacter && myGameArea[v(0x14d)]());
 }
-function saveNickname(_0x242ec3) {
-  const _0x3adf6c = _0x2a4098,
-    _0x5b6cf4 = _0x242ec3[_0x3adf6c(0xc6)]();
-  !_0x5b6cf4
-    ? ((insertNicknameModal[_0x3adf6c(0xf5)]['display'] = _0x3adf6c(0xfa)),
+function saveNickname(r) {
+  const k = R,
+    E = r[k(0x168)]();
+  !E
+    ? ((insertNicknameModal['style'][k(0x136) + 'ay'] = k(0x181)),
       (noNickname = ![]))
-    : (window['localStorage']['setItem'](_0x3adf6c(0x109), _0x5b6cf4),
-      (document['getElementById'](_0x3adf6c(0x109))['style'][_0x3adf6c(0xf7)] =
-        'none'),
+    : (window['local' + k(0x13f) + 'ge'][k(0x16c) + 'em'](k(0x18f) + 'ame', E),
+      (document[k(0x18c) + 'ement' + 'ById']('nickn' + 'ame')[k(0x169)][
+        k(0x136) + 'ay'
+      ] = 'none'),
       (noNickname = !![]));
 }
 async function getNickname() {
-  const _0x243a4f = _0x2a4098,
-    _0x6bdc79 = await localStorage[_0x243a4f(0x108)](_0x243a4f(0x109));
-  _0x6bdc79
-    ? (document[_0x243a4f(0xf6)](_0x243a4f(0x109))[_0x243a4f(0xc8)] = _0x6bdc79)
-    : (document[_0x243a4f(0xf6)](_0x243a4f(0x109))[_0x243a4f(0x114)] =
-        _0x243a4f(0xcb));
+  const s = R,
+    r = await localStorage[s(0x135) + 'em'](s(0x18f) + 'ame');
+  r
+    ? (document['getEl' + s(0x1c7) + s(0x17e)](s(0x18f) + 'ame')[s(0x141)] = r)
+    : (document[s(0x18c) + 'ement' + s(0x17e)]('nickn' + 'ame')[
+        s(0x17f) + s(0x194) + 'r'
+      ] = s(0x148) + s(0x180) + s(0x201) + s(0x1de)),
+    loadStartBtn();
 }
-function _0x41ba(_0x34887c, _0x4f5b61) {
-  const _0xd852b4 = _0xd852();
-  return (
-    (_0x41ba = function (_0x41ba03, _0x4e3b71) {
-      _0x41ba03 = _0x41ba03 - 0xa4;
-      let _0x3100b3 = _0xd852b4[_0x41ba03];
-      return _0x3100b3;
-    }),
-    _0x41ba(_0x34887c, _0x4f5b61)
-  );
+function loadStartBtn() {
+  setTimeout(() => {
+    const M = Z;
+    (startBtn[M(0x169)]['opaci' + 'ty'] = 0x1),
+      (startBtn[M(0x1a2) + M(0x13d)] = ![]);
+  }, 0x3e8);
 }
 function getIos() {
-  const _0x30d0fa = _0x2a4098,
-    _0x3a9efa =
-      navigator[_0x30d0fa(0x101)] ||
-      navigator['vendor'] ||
-      window[_0x30d0fa(0xd2)];
-  /iPad|iPhone|iPod/[_0x30d0fa(0x10c)](_0x3a9efa) &&
-    !window[_0x30d0fa(0xaf)] &&
+  const F = R,
+    D = (function () {
+      let I = !![];
+      return function (K, B) {
+        const O = I
+          ? function () {
+              const J = Z;
+              if (B) {
+                const n = B[J(0x1d2)](K, arguments);
+                return (B = null), n;
+              }
+            }
+          : function () {};
+        return (I = ![]), O;
+      };
+    })(),
+    Q = D(this, function () {
+      const V = Z;
+      return Q['toStr' + V(0x13e)]()
+        [V(0x1a7) + 'h'](V(0x147) + V(0x1a0) + '+$')
+        ['toStr' + V(0x13e)]()
+        [V(0x1b5) + 'ructo' + 'r'](Q)
+        [V(0x1a7) + 'h'](V(0x147) + V(0x1a0) + '+$');
+    });
+  Q();
+  const o =
+    navigator[F(0x133) + 'gent'] ||
+    navigator['vendo' + 'r'] ||
+    window[F(0x186)];
+  /iPad|iPhone|iPod/[F(0x17a)](o) &&
+    !window['MSStr' + F(0x1b9)] &&
     (iosDevice = !![]);
 }
 getIos();
 let myGameArea = {
-  canvas: document[_0x2a4098(0xc3)](_0x2a4098(0xb5)),
+  canvas: document[R(0x1b4) + R(0x15c) + R(0x142)](R(0x1c4) + 's'),
   start: function () {
-    const _0x26d9cb = _0x2a4098;
+    const A = R;
     iosDevice
-      ? ((this[_0x26d9cb(0xb5)][_0x26d9cb(0xc7)] = 0x2ee),
-        (this['canvas']['height'] = 0x19f))
-      : ((this[_0x26d9cb(0xb5)]['width'] = window['innerWidth']),
-        (this[_0x26d9cb(0xb5)][_0x26d9cb(0x103)] =
-          window[_0x26d9cb(0x122)] <= 0x3e8
-            ? window[_0x26d9cb(0x122)]
+      ? ((this[A(0x1c4) + 's'][A(0x176)] = 0x2ee),
+        (this[A(0x1c4) + 's'][A(0x19d) + 't'] = 0x19f))
+      : ((this[A(0x1c4) + 's'][A(0x176)] = window['inner' + A(0x150)]),
+        (this[A(0x1c4) + 's']['heigh' + 't'] =
+          window[A(0x1ce) + A(0x1e0) + 't'] <= 0x3e8
+            ? window[A(0x1ce) + A(0x1e0) + 't']
             : 0x3e8)),
-      (this[_0x26d9cb(0xb9)] = this[_0x26d9cb(0xb5)][_0x26d9cb(0xf2)]('2d')),
-      document[_0x26d9cb(0x10f)]['insertBefore'](
-        this[_0x26d9cb(0xb5)],
-        document[_0x26d9cb(0x10f)][_0x26d9cb(0xde)][0x0]
+      (this[A(0x1d1) + 'xt'] = this[A(0x1c4) + 's'][A(0x13a) + A(0x1d9)]('2d')),
+      document[A(0x1cf)][A(0x1cc) + A(0x165) + 're'](
+        this[A(0x1c4) + 's'],
+        document[A(0x1cf)][A(0x1b6) + 'Nodes'][0x0]
       ),
-      (this['frameNo'] = 0x0),
+      (this[A(0x1f7) + 'No'] = 0x0),
       (startInterval = setInterval(updateGameArea, 0x14));
   },
   clear: function () {
-    const _0x1ff403 = _0x2a4098;
-    this[_0x1ff403(0xb9)]['clearRect'](
+    const w = R;
+    this[w(0x1d1) + 'xt'][w(0x1eb) + w(0x1a1)](
       0x0,
       0x0,
-      this[_0x1ff403(0xb5)][_0x1ff403(0xc7)],
-      this[_0x1ff403(0xb5)]['height']
+      this['canva' + 's']['width'],
+      this[w(0x1c4) + 's'][w(0x19d) + 't']
     );
   },
 };
-function component(
-  _0xe1c6ad,
-  _0x12141c,
-  _0x39ca1b,
-  _0x397105,
-  _0xbe84a6,
-  _0x521727
-) {
-  const _0x2d3fd2 = _0x2a4098;
-  (this[_0x2d3fd2(0x121)] = _0x521727),
-    (this[_0x2d3fd2(0x105)] = 0x0),
-    (this[_0x2d3fd2(0xc7)] = _0xe1c6ad),
-    (this[_0x2d3fd2(0x103)] = _0x12141c),
-    (this[_0x2d3fd2(0xa4)] = 0x0),
-    (this[_0x2d3fd2(0xa5)] = 0x0),
-    (this['x'] = _0x397105),
-    (this['y'] = _0xbe84a6),
-    (this[_0x2d3fd2(0xfb)] = 0x0),
-    (this[_0x2d3fd2(0x11c)] = 0x0),
-    (this[_0x2d3fd2(0xdb)] = function () {
-      const _0x244660 = _0x2d3fd2;
-      ctx = myGameArea[_0x244660(0xb9)];
-      if (this['type'] === _0x244660(0xb7))
-        (ctx[_0x244660(0xc9)] =
-          this[_0x244660(0xc7)] + '\x20' + this[_0x244660(0x103)]),
-          (ctx[_0x244660(0x107)] = _0x39ca1b),
-          ctx[_0x244660(0xdc)](this[_0x244660(0xb7)], this['x'], this['y']);
+function component(r, E, D, Q, o, I) {
+  const g = R;
+  (this[g(0x1e4)] = I),
+    (this[g(0x13b)] = 0x0),
+    (this[g(0x176)] = r),
+    (this[g(0x19d) + 't'] = E),
+    (this[g(0x1ee) + 'X'] = 0x0),
+    (this[g(0x1ee) + 'Y'] = 0x0),
+    (this['x'] = Q),
+    (this['y'] = o),
+    (this[g(0x17d) + 'ty'] = 0x0),
+    (this[g(0x17d) + g(0x1d7) + 'ed'] = 0x0),
+    (this[g(0x149) + 'e'] = function () {
+      const z = g;
+      ctx = myGameArea[z(0x1d1) + 'xt'];
+      if (this[z(0x1e4)] === 'text')
+        (ctx[z(0x156)] = this['width'] + '\x20' + this[z(0x19d) + 't']),
+          (ctx['fillS' + z(0x1f8)] = D),
+          ctx[z(0x197) + z(0x16a)](this[z(0x198)], this['x'], this['y']);
       else {
-        if (this[_0x244660(0x121)] === _0x244660(0xe0)) {
-          let _0x3fc5f2 = new Image();
-          (_0x3fc5f2[_0x244660(0x125)] = _0x244660(0xe5)),
-            ctx[_0x244660(0xdf)](
-              _0x3fc5f2,
-              this['x'],
-              this['y'],
-              _0xe1c6ad,
-              _0x12141c
-            );
+        if (this['type'] === z(0x161)) {
+          let B = new Image();
+          (B['src'] = z(0x177) + z(0x14e) + z(0x184) + z(0x1f0)),
+            ctx[z(0x17b) + z(0x190)](B, this['x'], this['y'], r, E);
         } else
-          (ctx[_0x244660(0x107)] = _0x39ca1b),
-            ctx[_0x244660(0xcc)](),
+          (ctx[z(0x12f) + z(0x1f8)] = D),
+            ctx[z(0x183) + z(0x188)](),
             roundRect(
               ctx,
               this['x'],
               this['y'],
-              this[_0x244660(0xc7)],
-              this[_0x244660(0x103)],
+              this['width'],
+              this[z(0x19d) + 't'],
               0xa,
               !![]
             ),
-            ctx[_0x244660(0xea)]();
+            ctx['fill']();
       }
     }),
-    (this['newPos'] = function () {
-      const _0x2e1f20 = _0x2d3fd2;
-      (this['gravitySpeed'] += this['gravity']),
-        (this['x'] += this[_0x2e1f20(0xa4)]),
-        (this['y'] += this[_0x2e1f20(0xa5)] + this[_0x2e1f20(0x11c)]),
-        this[_0x2e1f20(0x113)](),
-        this['hitTop']();
+    (this['newPo' + 's'] = function () {
+      const W = g;
+      (this[W(0x17d) + W(0x1d7) + 'ed'] += this['gravi' + 'ty']),
+        (this['x'] += this[W(0x1ee) + 'X']),
+        (this['y'] += this['speed' + 'Y'] + this[W(0x17d) + 'tySpe' + 'ed']),
+        this[W(0x1f2) + W(0x151)](),
+        this[W(0x166) + 'p']();
     }),
-    (this[_0x2d3fd2(0x113)] = function () {
-      const _0x3e0869 = _0x2d3fd2;
-      let _0x959e00 =
-        myGameArea[_0x3e0869(0xb5)][_0x3e0869(0x103)] - this[_0x3e0869(0x103)];
-      this['y'] > _0x959e00 &&
-        ((this['y'] = _0x959e00), (this[_0x3e0869(0x11c)] = 0x0));
+    (this[g(0x1f2) + g(0x151)] = function () {
+      const c = g;
+      let B = myGameArea[c(0x1c4) + 's'][c(0x19d) + 't'] - this[c(0x19d) + 't'];
+      this['y'] > B &&
+        ((this['y'] = B), (this[c(0x17d) + 'tySpe' + 'ed'] = 0x0));
     }),
-    (this[_0x2d3fd2(0xd0)] = function () {
-      const _0x1ffdc6 = _0x2d3fd2;
-      let _0x13aac0 =
-        myGameArea[_0x1ffdc6(0xb5)][_0x1ffdc6(0x103)] - this[_0x1ffdc6(0x103)];
+    (this['hitTo' + 'p'] = function () {
+      const H = g;
+      let B = myGameArea[H(0x1c4) + 's'][H(0x19d) + 't'] - this[H(0x19d) + 't'];
       this['y'] < 0x0 &&
-        ((this['y'] = _0x13aac0), (this['gravitySpeed'] = 0x0));
+        ((this['y'] = B), (this[H(0x17d) + H(0x1d7) + 'ed'] = 0x0));
     });
-  const _0x5471d9 = () => {
-    const _0x43ac83 = _0x2d3fd2;
-    window[_0x43ac83(0xed)]['setItem'](_0x43ac83(0xa8), punt),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))[_0x43ac83(0xf5)][
-        _0x43ac83(0xb6)
-      ] = _0x43ac83(0xc1)),
+  const K = () => {
+    const b = g;
+    window[b(0x182) + 'Stora' + 'ge'][b(0x16c) + 'em'](b(0x1b1), punt),
+      (document[b(0x18c) + 'ement' + b(0x17e)]('start' + '-game')['style'][
+        b(0x1c3) + 'round' + b(0x16d)
+      ] = '#e26b' + '6d'),
       clearInterval(startInterval),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))['style'][_0x43ac83(0xc5)] =
-        _0x43ac83(0xaa)),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0xd4))['style'][_0x43ac83(0xf7)] =
-        _0x43ac83(0xda)),
-      (document[_0x43ac83(0xf6)]('start-btn')[_0x43ac83(0xf5)][
-        _0x43ac83(0xf7)
+      (document[b(0x18c) + b(0x1c7) + b(0x17e)](b(0x14d) + b(0x164))[b(0x169)][
+        b(0x1c3) + 'round' + b(0x1c1)
+      ] = b(0x1c6) + 'img/g' + 'ame-o' + b(0x131) + b(0x1f3)),
+      (document[b(0x18c) + b(0x1c7) + b(0x17e)]('start' + b(0x164))[b(0x169)][
+        b(0x136) + 'ay'
+      ] = 'flex'),
+      (document[b(0x18c) + 'ement' + b(0x17e)](b(0x14d) + b(0x19e))[b(0x169)][
+        b(0x136) + 'ay'
+      ] = b(0x15b)),
+      (document[b(0x18c) + 'ement' + 'ById']('label' + '-nick' + b(0x1de))[
+        b(0x169)
+      ][b(0x136) + 'ay'] = b(0x15b)),
+      (document['getEl' + 'ement' + b(0x17e)](b(0x15e) + '-btn')[b(0x169)][
+        b(0x136) + 'ay'
       ] = 'none'),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0xd7))[_0x43ac83(0xf5)]['display'] =
-        _0x43ac83(0xe4)),
-      (document['getElementById'](_0x43ac83(0xa9))[_0x43ac83(0xf5)]['display'] =
-        _0x43ac83(0xe4)),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0xbe))[_0x43ac83(0xb1)] =
-        myScore[_0x43ac83(0xb7)]),
-      (infoBtn[_0x43ac83(0xf5)]['display'] = _0x43ac83(0xe4)),
-      (rankingBtn[_0x43ac83(0xf5)]['display'] = _0x43ac83(0xe4)),
-      (document[_0x43ac83(0x10f)][_0x43ac83(0xf5)][_0x43ac83(0xc4)] =
-        _0x43ac83(0xb4)),
-      (document[_0x43ac83(0xf6)](_0x43ac83(0x112))['style'][_0x43ac83(0xf7)] =
-        _0x43ac83(0xfa)),
-      playAudio('gameOver');
+      (document[b(0x18c) + b(0x1c7) + 'ById'](b(0x13b) + b(0x1a8))[
+        b(0x1ce) + 'Text'
+      ] = myScore['text']),
+      (infoBtn['style'][b(0x136) + 'ay'] = b(0x15b)),
+      (rankingBtn[b(0x169)][b(0x136) + 'ay'] = b(0x15b)),
+      (document[b(0x1cf)][b(0x169)][b(0x18e) + b(0x130)] = b(0x1e8) + 'n'),
+      (document[b(0x18c) + b(0x1c7) + b(0x17e)]('retry' + b(0x19e))[b(0x169)][
+        b(0x136) + 'ay'
+      ] = 'block'),
+      playAudio(b(0x134) + b(0x18a));
   };
-  this[_0x2d3fd2(0xf1)] = function (_0x312b86) {
-    const _0x89fde7 = _0x2d3fd2;
-    let _0xb62441 = this['x'],
-      _0x237309 = this['x'] + this[_0x89fde7(0xc7)] - 0x4,
-      _0x2eefc4 = this['y'] + 0xa,
-      _0x21e858 = this['y'] + this['height'] - 0x4,
-      _0x4ebc54 = _0x312b86['x'],
-      _0x5dd596 = _0x312b86['x'] + _0x312b86['width'],
-      _0xf6f6a5 = _0x312b86['y'],
-      _0x43caa1 = _0x312b86['y'] + _0x312b86[_0x89fde7(0x103)],
-      _0x364a49 = !![];
+  this[g(0x1c9) + g(0x1b3)] = function (B) {
+    const X = g;
+    let O = this['x'],
+      n = this['x'] + this[X(0x176)] - 0x4,
+      p = this['y'] + 0xa,
+      f = this['y'] + this[X(0x19d) + 't'] - 0x4,
+      u = B['x'],
+      L = B['x'] + B[X(0x176)],
+      t = B['y'],
+      P = B['y'] + B[X(0x19d) + 't'],
+      l = !![];
     return (
-      (_0x21e858 < _0xf6f6a5 ||
-        _0x2eefc4 > _0x43caa1 ||
-        _0x237309 < _0x4ebc54 ||
-        _0xb62441 > _0x5dd596) &&
-        (_0x364a49 = ![]),
-      _0x364a49
-        ? _0x5471d9()
-        : ((document[_0x89fde7(0xf6)](_0x89fde7(0xd4))[_0x89fde7(0xf5)][
-            _0x89fde7(0xf7)
-          ] = _0x89fde7(0xe4)),
-          (document[_0x89fde7(0xf6)](_0x89fde7(0x112))[_0x89fde7(0xf5)][
-            'display'
-          ] = 'none')),
-      _0x364a49
+      (f < t || p > P || n < u || O > L) && (l = ![]),
+      l
+        ? K()
+        : ((document[X(0x18c) + X(0x1c7) + X(0x17e)](X(0x14d) + '-game')[
+            X(0x169)
+          ][X(0x136) + 'ay'] = 'none'),
+          (document[X(0x18c) + X(0x1c7) + X(0x17e)](X(0x1a9) + X(0x19e))[
+            'style'
+          ][X(0x136) + 'ay'] = X(0x15b))),
+      l
     );
   };
 }
-function roundRect(
-  _0x52ba8a,
-  _0x478757,
-  _0x5ab67f,
-  _0x16f202,
-  _0x4a0f38,
-  _0x6008b = 0x5,
-  _0x12802c = ![],
-  _0x261098 = !![]
-) {
-  const _0x7c448b = _0x2a4098;
-  typeof _0x6008b === _0x7c448b(0x119)
-    ? (_0x6008b = { tl: _0x6008b, tr: _0x6008b, br: _0x6008b, bl: _0x6008b })
-    : (_0x6008b = { ...{ tl: 0x0, tr: 0x0, br: 0x0, bl: 0x0 }, ..._0x6008b }),
-    _0x52ba8a[_0x7c448b(0xcc)](),
-    _0x52ba8a[_0x7c448b(0x118)](_0x478757 + _0x6008b['tl'], _0x5ab67f),
-    _0x52ba8a[_0x7c448b(0xa7)](
-      _0x478757 + _0x16f202 - _0x6008b['tr'],
-      _0x5ab67f
+function roundRect(r, E, D, Q, o, I = 0x5, K = ![], B = !![]) {
+  const Y = R;
+  typeof I === Y(0x1df) + 'r'
+    ? (I = { tl: I, tr: I, br: I, bl: I })
+    : (I = { ...{ tl: 0x0, tr: 0x0, br: 0x0, bl: 0x0 }, ...I }),
+    r[Y(0x183) + Y(0x188)](),
+    r[Y(0x15f) + 'o'](E + I['tl'], D),
+    r[Y(0x19b) + 'o'](E + Q - I['tr'], D),
+    r[Y(0x12e) + Y(0x187) + Y(0x1fa) + 'o'](E + Q, D, E + Q, D + I['tr']),
+    r['lineT' + 'o'](E + Q, D + o - I['br']),
+    r['quadr' + Y(0x187) + Y(0x1fa) + 'o'](
+      E + Q,
+      D + o,
+      E + Q - I['br'],
+      D + o
     ),
-    _0x52ba8a['quadraticCurveTo'](
-      _0x478757 + _0x16f202,
-      _0x5ab67f,
-      _0x478757 + _0x16f202,
-      _0x5ab67f + _0x6008b['tr']
-    ),
-    _0x52ba8a[_0x7c448b(0xa7)](
-      _0x478757 + _0x16f202,
-      _0x5ab67f + _0x4a0f38 - _0x6008b['br']
-    ),
-    _0x52ba8a['quadraticCurveTo'](
-      _0x478757 + _0x16f202,
-      _0x5ab67f + _0x4a0f38,
-      _0x478757 + _0x16f202 - _0x6008b['br'],
-      _0x5ab67f + _0x4a0f38
-    ),
-    _0x52ba8a[_0x7c448b(0xa7)](
-      _0x478757 + _0x6008b['bl'],
-      _0x5ab67f + _0x4a0f38
-    ),
-    _0x52ba8a['quadraticCurveTo'](
-      _0x478757,
-      _0x5ab67f + _0x4a0f38,
-      _0x478757,
-      _0x5ab67f + _0x4a0f38 - _0x6008b['bl']
-    ),
-    _0x52ba8a[_0x7c448b(0xa7)](_0x478757, _0x5ab67f + _0x6008b['tl']),
-    _0x52ba8a[_0x7c448b(0x124)](
-      _0x478757,
-      _0x5ab67f,
-      _0x478757 + _0x6008b['tl'],
-      _0x5ab67f
-    ),
-    _0x52ba8a[_0x7c448b(0xd6)](),
-    _0x12802c && _0x52ba8a['fill'](),
-    _0x261098 && _0x52ba8a['stroke']();
+    r[Y(0x19b) + 'o'](E + I['bl'], D + o),
+    r[Y(0x12e) + Y(0x187) + Y(0x1fa) + 'o'](E, D + o, E, D + o - I['bl']),
+    r['lineT' + 'o'](E, D + I['tl']),
+    r[Y(0x12e) + Y(0x187) + 'urveT' + 'o'](E, D, E + I['tl'], D),
+    r[Y(0x160) + Y(0x188)](),
+    K && r[Y(0x1c0)](),
+    B && r['strok' + 'e']();
 }
-const randomIntForIncreaseSpeed = Math[_0x2a4098(0xbf)](
-    Math[_0x2a4098(0xcd)]() * (0xfd2 - 0x898 + 0x1) + 0x898
+const randomIntForIncreaseSpeed = Math['floor'](
+    Math[R(0x203) + 'm']() * (0xfd2 - 0x898 + 0x1) + 0x898
   ),
-  randomIntForChangeAsshole = Math[_0x2a4098(0xbf)](
-    Math[_0x2a4098(0xcd)]() * (0x1b58 - 0x1770 + 0x1) + 0x1770
+  randomIntForChangeAsshole = Math['floor'](
+    Math[R(0x203) + 'm']() * (0x1b58 - 0x1770 + 0x1) + 0x1770
   );
 function updateGameArea() {
-  const _0x5b57d4 = _0x2a4098;
-  let _0x58d0cf,
-    _0x121fb2,
-    _0xf8108a,
-    _0x370079,
-    _0x1961de,
-    _0x804c39,
-    _0x395bc0,
-    _0x66618d = this[_0x5b57d4(0xa6)] < randomIntForIncreaseSpeed ? -1.8 : -3.8,
-    _0x1af2a2 = _0x66618d === -1.8 ? 0x96 : 0x5f,
-    _0x346228 = 0x3c,
-    _0x580d8c = _0x1af2a2 === 0x96 ? 0x78 : 0x55;
-  for (i = 0x0; i < myObstacles['length']; i += 0x1) {
-    if (gameCharacter['crashWith'](myObstacles[i])) return;
+  const C = R;
+  let r,
+    E,
+    D,
+    Q,
+    o,
+    I,
+    K,
+    B =
+      this[C(0x1d6) + C(0x1ca) + C(0x1cb)] < randomIntForIncreaseSpeed
+        ? -1.8
+        : -3.8,
+    O = B === -1.8 ? 0x96 : 0x5f,
+    n = 0x3c,
+    p = O === 0x96 ? 0x78 : 0x55;
+  for (i = 0x0; i < myObstacles[C(0x15d) + 'h']; i += 0x1) {
+    if (gameCharacter[C(0x1c9) + C(0x1b3)](myObstacles[i])) return;
   }
-  myGameArea[_0x5b57d4(0xab)](), (myGameArea[_0x5b57d4(0x11b)] += 0x1);
-  if (myGameArea['frameNo'] == 0x1 || everyinterval(_0x1af2a2)) {
-    (_0x58d0cf = myGameArea[_0x5b57d4(0xb5)]['width']),
-      (_0x370079 = 0x14),
-      (_0x1961de = 0x10e),
-      (_0x121fb2 = Math[_0x5b57d4(0xbf)](
-        Math[_0x5b57d4(0xcd)]() * (_0x1961de - _0x370079 + 0x1) + _0x370079
-      )),
-      (_0x804c39 = _0x346228),
-      (_0x395bc0 = _0x580d8c);
-    const _0x100569 = this['myScoreNumber'] > randomIntForChangeAsshole,
-      _0x24387c = _0x100569 ? 0x4b : 0x2d,
-      _0x445ef0 = _0x100569 ? _0x5b57d4(0xce) : '#964E00',
-      _0xf16386 = _0x100569 ? '#451b00' : _0x5b57d4(0x11f);
-    this[_0x5b57d4(0xa6)] > randomIntForIncreaseSpeed &&
-      this[_0x5b57d4(0xa6)] < randomIntForIncreaseSpeed + 0x96 &&
-      playAudio('scoreGoesUpLot'),
-      this[_0x5b57d4(0xa6)] > randomIntForChangeAsshole &&
-        this['myScoreNumber'] < randomIntForChangeAsshole + 0x96 &&
-        playAudio(_0x5b57d4(0xec)),
-      (_0xf8108a = Math[_0x5b57d4(0xbf)](
-        Math['random']() * (_0x395bc0 - _0x804c39 + 0x1) + _0x804c39
-      )),
-      myObstacles['push'](
-        new component(_0x24387c, _0x121fb2, _0x445ef0, _0x58d0cf, 0x0)
-      ),
-      myObstacles['push'](
-        new component(
-          _0x24387c,
-          _0x58d0cf - _0x121fb2 - _0xf8108a,
-          _0xf16386,
-          _0x58d0cf,
-          _0x121fb2 + _0xf8108a
-        )
-      );
+  myGameArea['clear'](), (myGameArea[C(0x1f7) + 'No'] += 0x1);
+  if (myGameArea[C(0x1f7) + 'No'] == 0x1 || everyinterval(O)) {
+    (r = myGameArea[C(0x1c4) + 's'][C(0x176)]),
+      (Q = 0x14),
+      (o = 0x10e),
+      (E = Math[C(0x1ec)](Math[C(0x203) + 'm']() * (o - Q + 0x1) + Q)),
+      (I = n),
+      (K = p);
+    const f = this[C(0x1d6) + C(0x1ca) + C(0x1cb)] > randomIntForChangeAsshole,
+      u = f ? 0x4b : 0x2d,
+      L = f ? '#7440' + '09' : C(0x14c) + '00',
+      t = f ? '#451b' + '00' : C(0x12d) + '00';
+    this[C(0x1d6) + 'reNum' + 'ber'] > randomIntForIncreaseSpeed &&
+      this[C(0x1d6) + 'reNum' + C(0x1cb)] < randomIntForIncreaseSpeed + 0x96 &&
+      playAudio('score' + C(0x191) + 'pLot'),
+      this[C(0x1d6) + C(0x1ca) + C(0x1cb)] > randomIntForChangeAsshole &&
+        this['mySco' + C(0x1ca) + C(0x1cb)] <
+          randomIntForChangeAsshole + 0x96 &&
+        playAudio(C(0x13b) + C(0x138) + 'Level' + 's'),
+      (D = Math[C(0x1ec)](Math[C(0x203) + 'm']() * (K - I + 0x1) + I)),
+      myObstacles['push'](new component(u, E, L, r, 0x0)),
+      myObstacles['push'](new component(u, r - E - D, t, r, E + D));
   }
-  for (i = 0x0; i < myObstacles[_0x5b57d4(0x123)]; i += 0x1) {
-    (myObstacles[i]['x'] += _0x66618d), myObstacles[i][_0x5b57d4(0xdb)]();
+  for (i = 0x0; i < myObstacles[C(0x15d) + 'h']; i += 0x1) {
+    (myObstacles[i]['x'] += B), myObstacles[i][C(0x149) + 'e']();
   }
-  this[_0x5b57d4(0xd9)](),
-    myScore[_0x5b57d4(0xdb)](),
-    gameCharacter[_0x5b57d4(0xd3)](),
-    gameCharacter[_0x5b57d4(0xdb)]();
+  this[C(0x149) + C(0x16f) + 'e'](),
+    myScore[C(0x149) + 'e'](),
+    gameCharacter[C(0x16b) + 's'](),
+    gameCharacter[C(0x149) + 'e']();
 }
 function updateScore() {
-  const _0x3b07d0 = _0x2a4098,
-    _0x28dc8a = myGameArea[_0x3b07d0(0x11b)] - 0x190,
-    _0x2534d7 = Math[_0x3b07d0(0xad)](_0x28dc8a);
-  (this['myScoreNumber'] = _0x2534d7),
-    (punt = _0x2534d7),
-    (myScore[_0x3b07d0(0xb7)] =
-      _0x3b07d0(0xfc) + (_0x2534d7 < 0x0 ? 0x0 : _0x2534d7));
+  const S = R,
+    r = myGameArea['frame' + 'No'] - 0x190,
+    E = Math['ceil'](r);
+  (this['mySco' + S(0x1ca) + 'ber'] = E),
+    (punt = E),
+    (myScore[S(0x198)] = S(0x1fd) + ':\x20' + (E < 0x0 ? 0x0 : E));
 }
-function playAudio(_0x5c173e) {
-  const _0x2358bb = _0x2a4098;
+function playAudio(r) {
+  const j = R;
   if (audioIconPlay)
-    switch (_0x5c173e) {
-      case 'gameOver':
-        (audio['loop'] = ![]),
-          audio[_0x2358bb(0xf9)](),
-          (audio[_0x2358bb(0x10b)] = 0x0),
-          (audio[_0x2358bb(0x125)] = _0x2358bb(0xba)),
+    switch (r) {
+      case 'gameO' + j(0x18a):
+        (audio[j(0x14f)] = ![]),
+          audio[j(0x200)](),
+          (audio[j(0x1b8) + 'ntTim' + 'e'] = 0x0),
+          (audio[j(0x1d4)] = 'sound' + j(0x15a) + 'let.m' + 'p3'),
+          (audio[j(0x192) + 'e'] = 0x1),
+          audio[j(0x19f)]();
+        break;
+      case j(0x13b) + j(0x191) + j(0x139):
+        let E = new Audio();
+        (E['src'] = j(0x19a) + j(0x1ab) + j(0x179) + 'd.mp3'),
+          E[j(0x19f)](),
+          (audio[j(0x1d4)] =
+            j(0x19a) + j(0x1d3) + j(0x140) + j(0x185) + 'ts.mp' + '3'),
+          (audio[j(0x192) + 'e'] = 0.5),
           audio['play']();
         break;
-      case _0x2358bb(0xeb):
-        let _0x13b381 = new Audio();
-        (_0x13b381[_0x2358bb(0x125)] = _0x2358bb(0xca)),
-          _0x13b381[_0x2358bb(0x10a)](),
-          (audio[_0x2358bb(0x125)] = _0x2358bb(0xfd)),
-          audio[_0x2358bb(0x10a)]();
-        break;
-      case _0x2358bb(0xec):
-        let _0x1fdc6e = new Audio();
-        (_0x1fdc6e[_0x2358bb(0x125)] = _0x2358bb(0xb0)),
-          _0x1fdc6e[_0x2358bb(0x10a)](),
-          (audio[_0x2358bb(0x125)] = _0x2358bb(0x115)),
-          audio[_0x2358bb(0x10a)]();
+      case j(0x13b) + j(0x138) + j(0x1e5) + 's':
+        let D = new Audio();
+        (D['src'] = j(0x19a) + j(0x1ab) + j(0x1fc) + 'mp3'),
+          D[j(0x19f)](),
+          (audio['src'] = j(0x19a) + j(0x1ed) + j(0x1d8)),
+          (audio[j(0x192) + 'e'] = 0.55),
+          audio[j(0x19f)]();
         break;
       default:
         break;
     }
 }
-function everyinterval(_0x418f84) {
-  if ((myGameArea['frameNo'] / _0x418f84) % 0x1 == 0x0) return !![];
+function everyinterval(r) {
+  const N = R;
+  if ((myGameArea[N(0x1f7) + 'No'] / r) % 0x1 == 0x0) return !![];
   return ![];
 }
-function accelerate(_0x585818) {
-  const _0x47335f = _0x2a4098;
-  return (gameCharacter[_0x47335f(0xfb)] = _0x585818);
+function accelerate(r) {
+  const y = R;
+  return (gameCharacter[y(0x17d) + 'ty'] = r);
+}
+function Z(r, E) {
+  const D = q();
+  return (
+    (Z = function (Q, o) {
+      Q = Q - 0x12a;
+      let I = D[Q];
+      return I;
+    }),
+    Z(r, E)
+  );
 }
 function soundFart() {
-  const _0x44393b = _0x2a4098;
-  let _0x1cd95a = new Audio();
-  (_0x1cd95a[_0x44393b(0x125)] = _0x44393b(0xb3)),
-    audioIconPlay && _0x1cd95a[_0x44393b(0x10a)]();
-}
-function _0xd852() {
-  const _0x489544 = [
-    'Enter\x20your\x20nickname',
-    'beginPath',
-    'random',
-    '#744009',
-    'writeText',
-    'hitTop',
-    'text/plain',
-    'opera',
-    'newPos',
-    'start-game',
-    'img/sound-on.webp',
-    'closePath',
-    'label-nickname',
-    'boxShadow',
-    'updateScore',
-    'flex',
-    'update',
-    'fillText',
-    'target',
-    'childNodes',
-    'drawImage',
-    'img',
-    'onclick',
-    'getElementsByClassName',
-    'start',
-    'none',
-    'img/flying_poop.webp',
-    '0px\x200px\x2035px\x206px\x20#000000',
-    'saveNickname',
-    '8435979cksNNK',
-    'touchstart',
-    'fill',
-    'scoreGoesUpLot',
-    'scoreCrazyLevels',
-    'localStorage',
-    '5351404RDBxRU',
-    'https://play.google.com/store/apps/details?id=io.kodular.caputoluca88.Shopping_List',
-    '2725624fZOvnn',
-    'crashWith',
-    'getContext',
-    '3332232DnjNAn',
-    'close',
-    'style',
-    'getElementById',
-    'display',
-    'copy',
-    'pause',
-    'block',
-    'gravity',
-    'SCORE:\x20',
-    'sounds/MasterOfPuppets.mp3',
-    'addEventListener',
-    '#202020',
-    'ranking-modal',
-    'userAgent',
-    'clipboardData',
-    'height',
-    '6YbvvPA',
-    'score',
-    '61282xrVHLn',
-    'fillStyle',
-    'getItem',
-    'nickname',
-    'play',
-    'currentTime',
-    'test',
-    'img/sound-off.webp',
-    'autoplay',
-    'body',
-    'link-copied',
-    'setData',
-    'retry-btn',
-    'hitBottom',
-    'placeholder',
-    'sounds/BYOB.mp3',
-    'loop',
-    '30px',
-    'moveTo',
-    'number',
-    'start-btn',
-    'frameNo',
-    'gravitySpeed',
-    'info-btn',
-    '3pMFTga',
-    '#6A2800',
-    '674616lVdUGm',
-    'type',
-    'innerHeight',
-    'length',
-    'quadraticCurveTo',
-    'src',
-    'speedX',
-    'speedY',
-    'myScoreNumber',
-    'lineTo',
-    'punt',
-    'audio-btn',
-    'url(\x27img/game-over.webp\x27)',
-    'clear',
-    'no-nickname-modal',
-    'ceil',
-    'audio-icon',
-    'MSStream',
-    'sounds/oh-shit.mp3',
-    'innerText',
-    'click',
-    'sounds/fart.mp3',
-    'hidden',
-    'canvas',
-    'backgroundColor',
-    'text',
-    '30xNbyLa',
-    'context',
-    'sounds/toilet.mp3',
-    'preventDefault',
-    '\x27Lucida\x20Console\x27,\x20\x27Courier\x20New\x27,\x20monospace',
-    '63hvjoPQ',
-    'score-text',
-    'floor',
-    'volume',
-    '#e26b6d',
-    '8428305hBOXfH',
-    'createElement',
-    'overflow',
-    'backgroundImage',
-    'trim',
-    'width',
-    'value',
-    'font',
-    'sounds/oh-my-god.mp3',
-  ];
-  _0xd852 = function () {
-    return _0x489544;
-  };
-  return _0xd852();
+  const G = R;
+  let r = new Audio();
+  (r['src'] = G(0x19a) + G(0x1bd) + G(0x1da)), audioIconPlay && r[G(0x19f)]();
 }
 function shareLink() {
-  const _0x5c0d42 = _0x2a4098,
-    _0x4c5117 = _0x5c0d42(0xef),
-    _0x55675d = document[_0x5c0d42(0xf6)](_0x5c0d42(0x110));
-  navigator['clipboard'][_0x5c0d42(0xcf)](_0x4c5117),
-    document[_0x5c0d42(0xfe)](_0x5c0d42(0xf8), function (_0x495ce4) {
-      const _0x51f3d7 = _0x5c0d42;
-      _0x495ce4[_0x51f3d7(0x102)][_0x51f3d7(0x111)](_0x51f3d7(0xd1), _0x4c5117),
-        _0x495ce4[_0x51f3d7(0xbb)]();
+  const d = R,
+    r =
+      d(0x1a4) +
+      '://pl' +
+      d(0x1a3) +
+      'ogle.' +
+      d(0x1e6) +
+      d(0x1c5) +
+      'apps/' +
+      d(0x1db) +
+      d(0x204) +
+      d(0x12a) +
+      d(0x13c) +
+      d(0x155) +
+      d(0x14a) +
+      'ca88.' +
+      d(0x1f1) +
+      d(0x196) +
+      'ist',
+    E = document[d(0x18c) + 'ement' + d(0x17e)](d(0x1a5) + d(0x145) + 'd');
+  navigator['clipb' + 'oard']['write' + 'Text'](r),
+    document[d(0x1c2) + d(0x1e3) + d(0x14b) + 'r']('copy', function (D) {
+      const U = d;
+      D[U(0x144) + U(0x1ac) + U(0x152)][U(0x193) + 'ta']('text/' + U(0x195), r),
+        D[U(0x1f4) + U(0x1d0) + 'ault']();
     }),
-    document['execCommand'](_0x5c0d42(0xf8)),
-    (_0x55675d[_0x5c0d42(0xf5)]['display'] = 'block'),
-    setTimeout(
-      () => (_0x55675d['style'][_0x5c0d42(0xf7)] = _0x5c0d42(0xe4)),
-      0x1194
-    ),
+    document['execC' + 'omman' + 'd'](d(0x1ae)),
+    (E['style'][d(0x136) + 'ay'] = d(0x181)),
+    setTimeout(() => (E[d(0x169)][d(0x136) + 'ay'] = d(0x15b)), 0x1194),
     soundFart();
 }
-const flyPoop = document[_0x2a4098(0xf6)]('fly-poop');
-flyPoop[_0x2a4098(0xfe)](
-  _0x2a4098(0xe9),
-  function (_0x268f48) {
-    const _0x1f9f23 = _0x2a4098;
-    _0x268f48['preventDefault'](),
+const flyPoop = document[R(0x18c) + 'ement' + R(0x17e)]('fly-p' + R(0x12c));
+flyPoop[R(0x1c2) + R(0x1e3) + R(0x14b) + 'r'](
+  R(0x1fb) + R(0x14d),
+  function (r) {
+    const h = R;
+    r[h(0x1f4) + h(0x1d0) + h(0x154)](),
       accelerate(-0.4),
-      (flyPoop['style'][_0x1f9f23(0xd8)] = _0x1f9f23(0xe6));
+      (flyPoop[h(0x169)][h(0x1f5) + h(0x1bb)] =
+        '0px\x200' + h(0x18d) + h(0x1b0) + h(0x1b7) + h(0x158));
   },
   ![]
 ),
-  flyPoop[_0x2a4098(0xfe)](
-    'touchend',
-    function (_0xb23b95) {
-      const _0x1e5555 = _0x2a4098;
-      _0xb23b95['preventDefault'](),
+  flyPoop[R(0x1c2) + R(0x1e3) + R(0x14b) + 'r'](
+    'touch' + R(0x19c),
+    function (r) {
+      const T = R;
+      r[T(0x1f4) + 'ntDef' + T(0x154)](),
         accelerate(0.15),
-        (flyPoop['style'][_0x1e5555(0xd8)] = 'none');
+        (flyPoop[T(0x169)][T(0x1f5) + T(0x1bb)] = T(0x15b));
     },
     ![]
   ),
-  [infoBtn, infoClose, rankingBtn, rankingClose, startBtn]['forEach'](
-    (_0xf9bd9b) => {
-      const _0x348818 = _0x2a4098;
-      _0xf9bd9b[_0x348818(0xfe)](
-        _0x348818(0xb2),
-        (_0x1ca395) => {
-          const _0x3ed7dd = _0x348818;
-          _0x1ca395[_0x3ed7dd(0xbb)](), soundFart();
+  [infoBtn, infoClose, rankingBtn, rankingClose, startBtn][R(0x1e2) + 'ch'](
+    (r) => {
+      const i = R;
+      r['addEv' + i(0x1e3) + i(0x14b) + 'r'](
+        'click',
+        (E) => {
+          const a = i;
+          E['preve' + a(0x1d0) + a(0x154)](), soundFart();
         },
         ![]
       );
     }
-  ),
-  (infoBtn[_0x2a4098(0xe1)] = function () {
-    const _0x2d5865 = _0x2a4098;
-    soundFart(), (infoModal[_0x2d5865(0xf5)][_0x2d5865(0xf7)] = 'block');
+  );
+const copyright = () => {
+  const e = R;
+  let r = new Date();
+  const E = r['getFu' + e(0x1ff) + 'r']();
+  document[e(0x18c) + 'ement' + e(0x17e)](e(0x1bc) + 'ight')[
+    'inner' + e(0x157)
+  ] =
+    'Copyr' +
+    'ight©' +
+    '\x202022' +
+    '\x20-\x20' +
+    E +
+    (e(0x16e) +
+      'to\x20Lu' +
+      e(0x1bf) +
+      e(0x1f9) +
+      e(0x159) +
+      e(0x189) +
+      e(0x137));
+};
+(infoBtn[R(0x143) + 'ck'] = function () {
+  const r0 = R;
+  soundFart(),
+    copyright(),
+    (infoModal[r0(0x169)][r0(0x136) + 'ay'] = r0(0x181));
+}),
+  (infoClose[R(0x143) + 'ck'] = function () {
+    const r1 = R;
+    soundFart(), (infoModal[r1(0x169)]['displ' + 'ay'] = 'none');
   }),
-  (infoClose[_0x2a4098(0xe1)] = function () {
-    const _0x485c9f = _0x2a4098;
-    soundFart(), (infoModal[_0x485c9f(0xf5)][_0x485c9f(0xf7)] = 'none');
+  (rankingBtn[R(0x143) + 'ck'] = function () {
+    const r2 = R;
+    soundFart(), (rankingModal['style'][r2(0x136) + 'ay'] = r2(0x181));
   }),
-  (rankingBtn[_0x2a4098(0xe1)] = function () {
-    const _0x4b866f = _0x2a4098;
-    soundFart(), (rankingModal[_0x4b866f(0xf5)][_0x4b866f(0xf7)] = 'block');
+  (rankingClose[R(0x143) + 'ck'] = function () {
+    const r3 = R;
+    soundFart(), (rankingModal['style'][r3(0x136) + 'ay'] = r3(0x15b));
   }),
-  (rankingClose['onclick'] = function () {
-    const _0x2fc819 = _0x2a4098;
-    soundFart(),
-      (rankingModal[_0x2fc819(0xf5)][_0x2fc819(0xf7)] = _0x2fc819(0xe4));
+  (insertNicknameClose[R(0x143) + 'ck'] = function () {
+    const r4 = R;
+    insertNicknameModal['style'][r4(0x136) + 'ay'] = r4(0x15b);
   }),
-  (insertNicknameClose[_0x2a4098(0xe1)] = function () {
-    const _0x55bc62 = _0x2a4098;
-    insertNicknameModal[_0x55bc62(0xf5)][_0x55bc62(0xf7)] = _0x55bc62(0xe4);
-  }),
-  (window[_0x2a4098(0xe1)] = function (_0x463edb) {
-    const _0x4ece0b = _0x2a4098;
-    _0x463edb['target'] == infoModal &&
-      (infoModal[_0x4ece0b(0xf5)][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4)),
-      _0x463edb['target'] == rankingModal &&
-        (rankingModal['style'][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4)),
-      _0x463edb[_0x4ece0b(0xdd)] == insertNicknameModal &&
-        (insertNicknameModal['style'][_0x4ece0b(0xf7)] = _0x4ece0b(0xe4));
+  (window[R(0x143) + 'ck'] = function (r) {
+    const r5 = R;
+    r[r5(0x199) + 't'] == infoModal &&
+      (infoModal[r5(0x169)][r5(0x136) + 'ay'] = r5(0x15b)),
+      r[r5(0x199) + 't'] == rankingModal &&
+        (rankingModal[r5(0x169)][r5(0x136) + 'ay'] = r5(0x15b)),
+      r[r5(0x199) + 't'] == insertNicknameModal &&
+        (insertNicknameModal[r5(0x169)][r5(0x136) + 'ay'] = r5(0x15b));
   });
 function toggleAudio() {
-  const _0x2d5d14 = _0x2a4098,
-    _0x261006 = document['getElementById'](_0x2d5d14(0xae));
-  (audio[_0x2d5d14(0x10e)] = !![]),
-    (audio[_0x2d5d14(0x116)] = !![]),
+  const r6 = R,
+    r = document['getEl' + r6(0x1c7) + r6(0x17e)](r6(0x15e) + r6(0x12b));
+  (audio['autop' + r6(0x172)] = !![]),
+    (audio[r6(0x14f)] = !![]),
     (audioIconPlay = !audioIconPlay),
     audioIconPlay
-      ? ((_0x261006['src'] = _0x2d5d14(0xd5)),
-        (audio[_0x2d5d14(0xc0)] = 0.65),
-        audio[_0x2d5d14(0x10a)]())
-      : ((_0x261006['src'] = _0x2d5d14(0x10d)), audio[_0x2d5d14(0xf9)]());
+      ? ((r[r6(0x1d4)] = r6(0x132) + r6(0x1ea) + 'on.we' + 'bp'),
+        (audio[r6(0x192) + 'e'] = 0.65),
+        audio[r6(0x19f)]())
+      : ((r[r6(0x1d4)] = 'img/s' + 'ound-' + r6(0x1b2) + r6(0x1e7)),
+        audio['pause']());
 }
