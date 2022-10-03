@@ -46,6 +46,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 #game-over-text,
 #retry-btn {
@@ -53,13 +54,6 @@ button:hover {
   font-size: 21px;
   margin-top: 25px;
   text-align: center;
-  /* 
-  opacity: 0;
-  -webkit-transition: opacity 2s ease-in;
-  -moz-transition: opacity 2s ease-in;
-  -ms-transition: opacity 2s ease-in;
-  -o-transition: opacity 2s ease-in;
-  transition: opacity 2s ease-in; */
 }
 .start-retry-btn {
   width: 150px;
@@ -152,8 +146,8 @@ button:hover {
 }
 .fly-btn {
   position: absolute;
-  bottom: 2%;
-  right: 5%;
+  bottom: 5%;
+  right: 6%;
   font-weight: bold;
   font-size: 30px;
   padding: 10px;
@@ -165,8 +159,8 @@ button:hover {
     rgba(179, 234, 71, 1) 70%
   );
   color: #ffff;
-  width: 15%;
-  height: 30%;
+  width: 18%;
+  height: 32%;
   opacity: 0.7;
 }
 .stop-btn {
@@ -264,7 +258,7 @@ button:hover {
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  width: 90%;
+  width: 85%;
   height: 85%;
   overflow: auto;
   text-align: center;
