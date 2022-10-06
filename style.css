@@ -203,7 +203,7 @@ button:hover {
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -253,6 +253,28 @@ button:hover {
   font-weight: bold;
 }
 
+.privacy-policy-btn {
+  border: 1px solid grey;
+  font-size: x-small;
+}
+.privacy-modal-content {
+  background-color: #efefef;
+  margin: auto;
+  margin-top: 15%;
+  padding: 25px;
+  border-radius: 10px;
+  width: 65%;
+  height: 70%;
+  overflow: auto;
+  text-align: left;
+}
+
+.privacy-modal-header,
+.privacy-modal-main {
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
 .rank-modal-content {
   background-color: #b3ea47;
   margin: auto;
@@ -294,15 +316,6 @@ button:hover {
   padding-top: 10px;
   margin-top: 20px;
   text-align: center;
-}
-
-.privacy-policy {
-  margin: 5px;
-}
-.privacy-policy > a.iubenda-embed {
-  background-color: transparent !important;
-  color: black !important;
-  font-size: 8px !important;
 }
 
 .no-nickname-modal-content {
