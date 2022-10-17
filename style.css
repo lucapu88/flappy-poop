@@ -149,9 +149,8 @@ button:hover {
 }
 
 .fly-btn-container {
-  width: 40%;
-  height: 55%;
-  /* border: 1px solid black; */
+  width: 25rem;
+  height: 20rem;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -171,8 +170,8 @@ button:hover {
     rgba(179, 234, 71, 1) 70%
   );
   color: #ffff;
-  width: 50%;
-  height: 60%;
+  width: 11rem;
+  height: 11rem;
   opacity: 0.7;
 }
 .stop-btn {
