@@ -313,6 +313,81 @@ button:hover {
   gap: 20px;
   justify-content: center;
 }
+
+.loading-container {
+  margin-top: 25%;
+}
+.poop-1,
+.poop-2,
+.poop-3,
+.poop-4 {
+  opacity: 0;
+}
+.poop-1 {
+  animation-name: poop1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes poop1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.poop-2 {
+  animation-name: poop2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes poop2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.poop-3 {
+  animation-name: poop3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes poop3 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.poop-4 {
+  animation-name: poop4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes poop4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .rank-number {
   margin-right: 10px;
 }
