@@ -416,3 +416,10 @@ button:hover {
   top: 40%;
   left: 25%;
 }
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-image: url(img/animated-poop.gif);
+    background-position: center;
+  }
+}
