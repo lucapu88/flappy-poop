@@ -1,4 +1,5 @@
 gitignore
-appunti.md
-NOOFF.js
-NOOFF.html
+node_modules
+package-lock.json
+package.json
+script.js
